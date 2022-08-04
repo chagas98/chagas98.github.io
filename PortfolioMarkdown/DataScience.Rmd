@@ -1,5 +1,5 @@
 ---
-title: "Data Analysis Portfolio"
+title: "P O R T F O L I O"
 output: 
   rmdformats::robobook:
     self_contained: true
@@ -9,11 +9,9 @@ output:
 
 ---
 
-These projects/graphs comprehend the most diversifying tools from R and Python environments. Each plot was built from data collection, cleaning, and processing (or transforming) integrated into different projects.
-
 # About me: **Samuel C.**
 
-**Undergraduate Student | BSc. in Biotechnology**
+**Undergraduate Student | BSc. in Biotechnology | Contact in [CV Webpage](../index.html)**
 
 I am a Biotechnology undergraduate student working with data analysis for biological data (focus on Bioinformatics pipelines). Recently, from my experience with web scraping and data visualization in research projects, I started to provide freelance services and specialize as a data analyst. I aim to identify the specific features for each task, accomplished through communication with the client/colleagues and dedication to delivering impact results. Most importantly, as a data analyst in formation, I always seek to learn new tools/packages contributing to diversifying results for each project.
 
@@ -27,13 +25,15 @@ Languages that I am working with:
 
 **My Services:**
 
-- Data Visualization Charts
+- Data Visualization
 
 - Data Cleaning
 
 - Statistical Descriptive/Exploratory Analysis
 
 - Web Scraping
+
+- Automation Scripts (Python/R)
 
 - Data Collection (ETL)
 
@@ -77,3 +77,5 @@ Venn Diagram Variations             |  Statistical Modeling Charts
 ![Venn Variations](./Images/Image5.png) |  
 
 ---
+
+
