@@ -1,0 +1,79 @@
+---
+title: "Data Analysis Portfolio"
+output: 
+  rmdformats::robobook:
+    self_contained: true
+    thumbnails: true
+    lightbox: true
+    gallery: false
+
+---
+
+These projects/graphs comprehend the most diversifying tools from R and Python environments. Each plot was built from data collection, cleaning, and processing (or transforming) integrated into different projects.
+
+# About me: **Samuel C.**
+
+**Undergraduate Student | BSc. in Biotechnology**
+
+I am a Biotechnology undergraduate student working with data analysis for biological data (focus on Bioinformatics pipelines). Recently, from my experience with web scraping and data visualization in research projects, I started to provide freelance services and specialize as a data analyst. I aim to identify the specific features for each task, accomplished through communication with the client/colleagues and dedication to delivering impact results. Most importantly, as a data analyst in formation, I always seek to learn new tools/packages contributing to diversifying results for each project.
+
+Languages that I am working with:   
+
+- R
+
+- Python
+
+- Bash
+
+**My Services:**
+
+- Data Visualization Charts
+
+- Data Cleaning
+
+- Statistical Descriptive/Exploratory Analysis
+
+- Web Scraping
+
+- Data Collection (ETL)
+
+
+---
+
+# DataViz
+
+## Simple Graphs
+
+Bar Charts             |  Customized Bar Charts
+:-------------------------:|:-------------------------:
+![Bar Charts](./Images/Image4.jpeg)  |  ![Customized Bar Charts](./Images/Image1.png)
+
+ 
+Faceted Charts      |  
+:-------------------------:|:-------------------------:
+![Faceted Charts](./Images/Image3.png)  |  ![Customized Faceted Charts](./Images/Image8.png)
+
+
+
+## Interactive Graphs
+
+* [3D Graph](./Images/Image7.html)
+
+* [Heatmap Graph](./Images/Image9.html)
+
+* [Bar Chart Graph](./Images/Image10.html)
+
+
+
+## Interesting Graphs
+
+Map Charts             |  Correlation Charts
+:-------------------------:|:-------------------------:
+![Map Charts](./Images/Image6.jpeg)  |  ![Correlation Charts](./Images/Image2.png)
+
+
+Venn Diagram Variations             |  Statistical Modeling Charts 
+:-------------------------:|:-------------------------:
+![Venn Variations](./Images/Image5.png) |  
+
+---
