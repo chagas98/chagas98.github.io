@@ -11,7 +11,7 @@ output:
 
 # About me: **Samuel C.**
 
-**Undergraduate Student | BSc. in Biotechnology | Contact in [CV Webpage](../index.html)**
+**Undergraduate Student | BSc. in Biotechnology | [CV Webpage](../index.html)**
 
 I am a Biotechnology undergraduate student working with data analysis for biological data (focus on Bioinformatics pipelines). Recently, from my experience with web scraping and data visualization in research projects, I started to provide freelance services and specialize as a data analyst. I aim to identify the specific features for each task, accomplished through communication with the client/colleagues and dedication to delivering impact results. Most importantly, as a data analyst in formation, I always seek to learn new tools/packages contributing to diversifying results for each project.
 
