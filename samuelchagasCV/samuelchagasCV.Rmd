@@ -1,0 +1,206 @@
+---
+name: Samuel Chagas de Assis
+date: "`r format(Sys.time(), '%B, %Y')`"
+qualifications: BCom(Hons), BSc
+address: Foz do Iguaçu, Brasil
+#profilepic: samuelphoto.jpg
+email: samuel.achagas98@gmail.com
+www: chagas98.github.io
+#github: chagas98
+linkedin: samuelchagass
+position: Programador - Bacharelado em Biotecnologia
+#twitter: mitchoharawild
+headcolor: 2983f3
+
+output: 
+  vitae::awesomecv:
+    page_total: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+library(vitae)
+```
+
+---
+
+\begingroup
+\fontsize{10}{12}\selectfont
+\textit
+{"Um biotecnologista em formação à aspirante em bioinformática, interessado em explorar a complexidade dos sistemas biológicos e a biodiversidade latinoamericana utilizando linhas de código e diálogo. Acredita na ciência aberta como um vetor de desenvolvimento científico e tecnológico. Possui experiência em R e Python para análises genéticas, modelagem de sistemas biológicos e visualização de dados. Atualmente, busca por uma posição que contribua para aprimorar seus conhecimentos em ciência da computação aplicado à biotecnologia"} 
+\endgroup
+
+# Formação
+
+```{r}
+library(tibble)
+tribble(
+  ~ Degree, ~ Year, ~ Institution, ~ Where,
+ "Bacharelado em Biotecnologia", "2017-Atualmente", "Universidade Federal da Integração Latino-Americana (UNILA)", "Foz do Iguaçu, Paraná",
+ "Técnico em Eletrotécnica integrado ao Ensino Médio", "2013-2018", "Fundação Escola Técnica Liberato Salzano Vieira da Cunha", "Novo Hamburgo, Rio Grande do Sul"
+) %>% 
+  detailed_entries(Degree, Year, Institution, Where)
+```
+
+# Experiências Acadêmicas
+
+## Extensão
+
+```{r}
+tribble(
+  ~ Position, ~ Year, ~ Institution, ~ Where, ~Why,
+  "Monitor/\\textit{Advisor}", 
+  "2022-Atualmente", 
+  "SynFronteras.Lab: Laboratório Virtual de Biologia Sintética", 
+  "Foz do Iguaçu, Paraná", 
+  c("Ensino de Biologia sintética à estudantes de nível médio e superior;",
+    "Elaboração de uma ementa de ensino em Biologia Sintética;",
+    "Coordenação de atividades de ensino.")) %>% 
+  detailed_entries(Position, Year, Institution, Where, Why, .protect = FALSE)
+```
+
+
+## Pesquisa
+
+```{r}
+tribble(
+  ~ Position, ~ Year, ~ Institution, ~ Where, ~Why,
+  "Bolsista de Iniciação Científica (UNILA/CNPq)", 
+  "2020-Atualmente", 
+  "Perfil alélico HLA-B de pacientes admitidos por COVID-19 na Unidade de Tratamento Intensivo (UTI).", 
+  "Foz do Iguaçu, Paraná", 
+  c("Extração de DNA de amostras sanguíneas;",
+    "Sequenciamento Sanger;",
+    "Análise de Sequências Sanger utilizando \\textit{uTYPE HLA Sequence Analysis};",
+    "Análise Estatística Descritiva e Exploratória;",
+    "Análise e Descrição Reprodutível em R \\href{https://chagas98.github.io/hlafozpublic/SupplementaryMaterial.html}{(link).}")) %>% 
+  detailed_entries(Position, Year, Institution, Where, Why, .protect = FALSE)
+```
+
+```{r}
+tribble(
+  ~ Position, ~ Year, ~ Institution, ~ Where, ~Why,
+  "Coordenador \\textit{DryLab}", 
+  "2020-2021", 
+  "\\textit{International Genetically Engineered Machine Competition} (iGEM)", 
+  "Foz do Iguaçu, Paraná", 
+  c("Fundador da Equipe iGEM UNILA LatAm (SynFronteras Team);", 
+    "Modelagem Cinética e Análise de Sensibilidade Global \\href{https://github.com/chagas98/iGEM2021_Modeling}{(link);}", 
+    "Geração de uma Biblioteca de  \\textit{Toehold RNA Switches} \\href{https://github.com/igemsoftware2021/CarpinchoToeholdDesigner}{(link);}",
+    "Planejamento e Executação de Projetos;",
+    "Auxílio na submissão em Editais de Fomento.")) %>% 
+  detailed_entries(Position, Year, Institution, Where, Why, .protect = FALSE)
+```
+
+```{r}
+tribble(
+  ~ Position, ~ Year, ~ Institution, ~ Where, ~Why,
+  "Bolsista de Iniciação Científica (Fundação Araucária)", 
+  "2018-2019", 
+  "Produção e Funcionalização de Nanocelulose Bacteriana", 
+  "Foz do Iguaçu, Paraná", 
+  c("Cultivo de \\textit{Komagataeibacter xylinus};",
+    "Extração e Purificação de Nanocelulose Bacteriana;",
+    "Planejamento de Experimentos."
+    )) %>% 
+  detailed_entries(Position, Year, Institution, Where, Why, .protect = FALSE)
+```
+
+```{r}
+tribble(
+  ~ Position, ~ Year, ~ Institution, ~ Where, ~Why,
+  "Traballho de Conclusão Nível Técnico-Médio", 
+  "2015-2016", 
+  "Sistema WindToxic: Sistema de Monitoramento da Contaminação do Ar pelo Herbicida Glifosato",
+  "Novo Hamburgo, Rio Grande do Sul", 
+  c("Formulação de sensor eletroquímico baseado em óxido férrico e PVA;",
+    "Integração de amplificador, microcontrolador (Arduino) e sensores auxiliares;",
+    "Planejamento de Experimentos."
+    )) %>% 
+  detailed_entries(Position, Year, Institution, Where, Why, .protect = FALSE)
+```
+
+## Representação
+
+```{r}
+tribble(
+  ~ Position, ~ Year, ~ Institution, ~ Where,
+  "Representante Discente", 
+  "2018-2019", 
+  "Colegiado do Curso de Biotecnologia - UNILA", 
+  "Foz do Iguaçu, Paraná") %>% 
+  detailed_entries(Position, Year, Institution, Where, .protect = FALSE)
+```
+
+```{r}
+tribble(
+  ~ Position, ~ Year, ~ Institution, ~ Where,
+  "Membro Fundador  CABiotec - UNILA ", 
+  "2017-2019", 
+  "Centro Acadêmico de Biotecnologia", 
+  "Foz do Iguaçu, Paraná") %>% 
+  detailed_entries(Position, Year, Institution, Where, .protect = FALSE)
+```
+
+# Experiências Profissionais
+
+```{r}
+tribble(
+  ~ Position, ~ Year, ~ Institution, ~ Where, ~ Why,
+  "Estágio - Técnico em Eletrotécnica (720 horas)", "2017-2018", "Parque Tecnológico Itaipu (PTI - Brasil)", "Foz do Iguaçu, Paraná",
+  c("Auxiliar de Projetos Elétricos", "Instrumentação e Eficiência Energética")
+) %>% 
+  detailed_entries(Position, Year, Institution, Where, Why)
+```
+
+# Habilidades e Qualificações
+
+\begingroup
+\fontsize{10}{12}\selectfont
+* Experiência em Sistemas UNIX/Linux;
+* Linguagens de Programação: R, Python e Bash;
+* \textit{Markup}: RMarkdown;
+* Gerenciamento: Git/GitHub;
+* Conhecimento de diferentes pacotes para análise e visualização de dados;
+* Experiência com análise estatísticas utilizando modelos lineares;
+* Experiência com modelos cinéticos e otimização de parâmetros aplicado à biologia de sistemas;
+* Análise de sequências Sanger;
+* Habilidade com protocolos de microbiologia e biologia molecular;
+* Experiência com sistemas eletrônicos embarcados (C++/Arduino) e sensores eletroquímicos;
+* Busca explorar comunicação técnica-didática para integrar diferentes áreas;
+* Alta capacidade de planejamento aplicada à pesquisa científica;
+* Aptidão para desenvolvimento de projetos em equipe.
+
+\endgroup
+
+
+# Comunicação
+
+```{r}
+tribble(
+  ~Lang, ~Level,
+  "Português", "Nativo",
+  "Inglês", "Intermediário à Avançado",
+  "Espanhol", "Intermediário"
+) %>% 
+  brief_entries(Level,Lang)
+```
+
+# Prêmios
+
+```{r}
+tribble(
+  ~Year, ~Type,
+  2021, "Medalha de Ouro e Nomeação de Melhor Projeto de Nova Aplicação na \\textit{International Genetically Engineering Machine Competition} (iGEM)",
+  2020, "Melhor Projeto de Escolha do Público no V Curso de Verão de Engenharia de Máquinas Biológicas - UFMG",
+  2020, "Melhor Apresentação no V Curso de Verão de Engenharia de Máquinas Biológicas - UFMG",
+  2019, "Primeiro Lugar. Menção Honrosa na área de Tecnologia e Produção no VII SEUNI - UNILA",
+  2016, "Menção Honrosa UNESCO pelo Projeto de Relevância Social na Conferência Internacional de Ciência e Tecnologia de Nível Médio - MOSTRATEC/UNESCO",
+  
+  
+) %>% 
+  brief_entries(
+    Type,
+    Year, .protect = FALSE)
+```
+
