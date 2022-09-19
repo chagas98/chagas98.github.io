@@ -2,7 +2,7 @@
 name: Samuel Chagas de Assis
 date: "`r format(Sys.time(), '%B, %Y')`"
 qualifications: BCom(Hons), BSc
-address: Foz do Iguaçu, Brasil
+#address: Foz do Iguaçu, Brasil
 #profilepic: samuelphoto.jpg
 email: samuel.achagas98@gmail.com
 www: chagas98.github.io
