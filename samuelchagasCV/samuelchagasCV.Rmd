@@ -27,7 +27,7 @@ library(vitae)
 \begingroup
 \fontsize{10}{12}\selectfont
 \textit
-{"Um biotecnologista em formação à aspirante em bioinformática, interessado em explorar a complexidade dos sistemas biológicos e a biodiversidade latinoamericana utilizando linhas de código e diálogo. Acredita na ciência aberta como um vetor de desenvolvimento científico e tecnológico. Possui experiência em R e Python para análises genéticas, modelagem de sistemas biológicos e visualização de dados. Atualmente, busca por uma posição que contribua para aprimorar seus conhecimentos em ciência da computação aplicado à biotecnologia"} 
+{"Um biotecnologista em formação à aspirante em bioinformática, interessado em explorar a complexidade dos sistemas biológicos e a biodiversidade latinoamericana utilizando linhas de código e diálogo. Acredita na ciência aberta como um vetor de desenvolvimento científico e tecnológico. Possui experiência em R e Python para análises genéticas, modelagem de sistemas biológicos e visualização de dados. Atualmente, busca por uma posição que contribua para aprimorar seus conhecimentos em ciência de dados aplicado à biotecnologia"} 
 \endgroup
 
 # Formação
