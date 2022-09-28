@@ -8,7 +8,7 @@ email: samuel.achagas98@gmail.com
 www: chagas98.github.io
 #github: chagas98
 linkedin: samuelchagass
-position: Programador - Bacharelado em Biotecnologia
+position: Programador - Biotecnologista
 #twitter: mitchoharawild
 headcolor: 2983f3
 
@@ -53,9 +53,8 @@ tribble(
   "2022-Atualmente", 
   "SynFronteras.Lab: Laboratório Virtual de Biologia Sintética", 
   "Foz do Iguaçu, Paraná", 
-  c("Ensino de Biologia sintética à estudantes de nível médio e superior;",
-    "Elaboração de uma ementa de ensino em Biologia Sintética;",
-    "Coordenação de atividades de ensino.")) %>% 
+  c("Ensino de Biologia sintética à estudantes de nível médio e superior",
+    "Coordenação de atividades de ensino")) %>% 
   detailed_entries(Position, Year, Institution, Where, Why, .protect = FALSE)
 ```
 
@@ -69,11 +68,9 @@ tribble(
   "2020-Atualmente", 
   "Perfil alélico HLA-B de pacientes admitidos por COVID-19 na Unidade de Tratamento Intensivo (UTI).", 
   "Foz do Iguaçu, Paraná", 
-  c("Extração de DNA de amostras sanguíneas;",
-    "Sequenciamento Sanger;",
-    "Análise de Sequências Sanger utilizando \\textit{uTYPE HLA Sequence Analysis};",
-    "Análise Estatística Descritiva e Exploratória;",
-    "Análise e Descrição Reprodutível em R \\href{https://chagas98.github.io/hlafozpublic/SupplementaryMaterial.html}{(link).}")) %>% 
+  c("Sequenciamento Sanger",
+    "Análise de dados",
+    "Visualização de dados \\href{https://chagas98.github.io/hlafozpublic/SupplementaryMaterial.html}{(\\underline{Código})}")) %>% 
   detailed_entries(Position, Year, Institution, Where, Why, .protect = FALSE)
 ```
 
@@ -84,11 +81,10 @@ tribble(
   "2020-2021", 
   "\\textit{International Genetically Engineered Machine Competition} (iGEM)", 
   "Foz do Iguaçu, Paraná", 
-  c("Fundador da Equipe iGEM UNILA LatAm (SynFronteras Team);", 
-    "Modelagem Cinética e Análise de Sensibilidade Global \\href{https://github.com/chagas98/iGEM2021_Modeling}{(link);}", 
-    "Geração de uma Biblioteca de  \\textit{Toehold RNA Switches} \\href{https://github.com/igemsoftware2021/CarpinchoToeholdDesigner}{(link);}",
-    "Planejamento e Executação de Projetos;",
-    "Auxílio na submissão em Editais de Fomento.")) %>% 
+  c("Fundador da \\textit{UNILA_LatAm iGEM Team}", 
+    "Modelagem Cinética e Análise de Sensibilidade Global \\href{https://github.com/chagas98/iGEM2021_Modeling}{(\\underline{Código})}", 
+    "Predição de \\textit{Toehold RNA Switches} \\href{https://github.com/igemsoftware2021/CarpinchoToeholdDesigner}{(\\underline{Código})}",
+    "Participação em Editais de Fomento")) %>% 
   detailed_entries(Position, Year, Institution, Where, Why, .protect = FALSE)
 ```
 
@@ -99,9 +95,8 @@ tribble(
   "2018-2019", 
   "Produção e Funcionalização de Nanocelulose Bacteriana", 
   "Foz do Iguaçu, Paraná", 
-  c("Cultivo de \\textit{Komagataeibacter xylinus};",
-    "Extração e Purificação de Nanocelulose Bacteriana;",
-    "Planejamento de Experimentos."
+  c("Cultivo de \\textit{Komagataeibacter xylinus}",
+    "Planejamento de Experimentos"
     )) %>% 
   detailed_entries(Position, Year, Institution, Where, Why, .protect = FALSE)
 ```
@@ -109,13 +104,13 @@ tribble(
 ```{r}
 tribble(
   ~ Position, ~ Year, ~ Institution, ~ Where, ~Why,
-  "Traballho de Conclusão Nível Técnico-Médio", 
+  "Trabalho de Conclusão Nível Médio-Técnico", 
   "2015-2016", 
-  "Sistema WindToxic: Sistema de Monitoramento da Contaminação do Ar pelo Herbicida Glifosato",
+  "Sistema de Monitoramento da Contaminação do Ar pelo Herbicida Glifosato",
   "Novo Hamburgo, Rio Grande do Sul", 
-  c("Formulação de sensor eletroquímico baseado em óxido férrico e PVA;",
-    "Integração de amplificador, microcontrolador (Arduino) e sensores auxiliares;",
-    "Planejamento de Experimentos."
+  c("Sensores eletroquímicos",
+    "Sistemas eletrônicos embarcados",
+    "Planejamento de Experimentos"
     )) %>% 
   detailed_entries(Position, Year, Institution, Where, Why, .protect = FALSE)
 ```
@@ -157,19 +152,11 @@ tribble(
 
 \begingroup
 \fontsize{10}{12}\selectfont
-* Experiência em Sistemas UNIX/Linux;
-* Linguagens de Programação: R, Python e Bash;
-* \textit{Markup}: RMarkdown;
-* Gerenciamento: Git/GitHub;
-* Conhecimento de diferentes pacotes para análise e visualização de dados;
-* Experiência com análise estatísticas utilizando modelos lineares;
-* Experiência com modelos cinéticos e otimização de parâmetros aplicado à biologia de sistemas;
-* Análise de sequências Sanger;
-* Habilidade com protocolos de microbiologia e biologia molecular;
-* Experiência com sistemas eletrônicos embarcados (C++/Arduino) e sensores eletroquímicos;
-* Busca explorar comunicação técnica-didática para integrar diferentes áreas;
-* Alta capacidade de planejamento aplicada à pesquisa científica;
-* Aptidão para desenvolvimento de projetos em equipe.
+* Linguagens de Programação: R, Python e Bash
+* \textit{Markup}: RMarkdown e HTML
+* Gerenciamento: Git/GitHub, GiHub Actions
+* Experiência em Sistemas UNIX/Linux
+* Sistemas eletrônicos embarcados (C++/Arduino)
 
 \endgroup
 

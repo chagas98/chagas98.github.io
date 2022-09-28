@@ -1,0 +1,255 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+% Awesome CV LaTeX Template for CV/Resume
+%
+% This template has been downloaded from:
+% https://github.com/posquit0/Awesome-CV
+%
+% Author:
+% Claud D. Park <posquit0.bj@gmail.com>
+% http://www.posquit0.com
+%
+%
+% Adapted to be an Rmarkdown template by Mitchell O'Hara-Wild
+% 23 November 2018
+%
+% Template license:
+% CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+%
+%-------------------------------------------------------------------------------
+% CONFIGURATIONS
+%-------------------------------------------------------------------------------
+% A4 paper size by default, use 'letterpaper' for US letter
+\documentclass[11pt,a4paper,]{awesome-cv}
+
+% Configure page margins with geometry
+\usepackage{geometry}
+\geometry{left=1.4cm, top=.8cm, right=1.4cm, bottom=1.8cm, footskip=.5cm}
+
+
+% Specify the location of the included fonts
+\fontdir[fonts/]
+
+% Color for highlights
+% Awesome Colors: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange
+%                 awesome-nephritis, awesome-concrete, awesome-darknight
+
+\definecolor{awesome}{HTML}{2983f3}
+
+% Colors for text
+% Uncomment if you would like to specify your own color
+% \definecolor{darktext}{HTML}{414141}
+% \definecolor{text}{HTML}{333333}
+% \definecolor{graytext}{HTML}{5D5D5D}
+% \definecolor{lighttext}{HTML}{999999}
+
+% Set false if you don't want to highlight section with awesome color
+\setbool{acvSectionColorHighlight}{true}
+
+% If you would like to change the social information separator from a pipe (|) to something else
+\renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad}
+
+\def\endfirstpage{\newpage}
+
+%-------------------------------------------------------------------------------
+%	PERSONAL INFORMATION
+%	Comment any of the lines below if they are not required
+%-------------------------------------------------------------------------------
+% Available options: circle|rectangle,edge/noedge,left/right
+
+\name{Samuel Chagas de Assis}{}
+
+\position{Programador - Biotecnologista}
+
+\email{\href{mailto:samuel.achagas98@gmail.com}{\nolinkurl{samuel.achagas98@gmail.com}}}
+\homepage{chagas98.github.io}
+\linkedin{samuelchagass}
+
+% \gitlab{gitlab-id}
+% \stackoverflow{SO-id}{SO-name}
+% \skype{skype-id}
+% \reddit{reddit-id}
+
+
+\usepackage{booktabs}
+
+\providecommand{\tightlist}{%
+	\setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+%------------------------------------------------------------------------------
+
+
+
+% Pandoc CSL macros
+\newlength{\cslhangindent}
+\setlength{\cslhangindent}{1.5em}
+\newlength{\csllabelwidth}
+\setlength{\csllabelwidth}{2em}
+\newenvironment{CSLReferences}[3] % #1 hanging-ident, #2 entry spacing
+ {% don't indent paragraphs
+  \setlength{\parindent}{0pt}
+  % turn on hanging indent if param 1 is 1
+  \ifodd #1 \everypar{\setlength{\hangindent}{\cslhangindent}}\ignorespaces\fi
+  % set entry spacing
+  \ifnum #2 > 0
+  \setlength{\parskip}{#2\baselineskip}
+  \fi
+ }%
+ {}
+\usepackage{calc}
+\newcommand{\CSLBlock}[1]{#1\hfill\break}
+\newcommand{\CSLLeftMargin}[1]{\parbox[t]{\csllabelwidth}{\honortitlestyle{#1}}}
+\newcommand{\CSLRightInline}[1]{\parbox[t]{\linewidth - \csllabelwidth}{\honordatestyle{#1}}}
+\newcommand{\CSLIndent}[1]{\hspace{\cslhangindent}#1}
+
+\begin{document}
+
+% Print the header with above personal informations
+% Give optional argument to change alignment(C: center, L: left, R: right)
+\makecvheader
+
+% Print the footer with 3 arguments(<left>, <center>, <right>)
+% Leave any of these blank if they are not needed
+% 2019-02-14 Chris Umphlett - add flexibility to the document name in footer, rather than have it be static Curriculum Vitae
+
+
+%-------------------------------------------------------------------------------
+%	CV/RESUME CONTENT
+%	Each section is imported separately, open each file in turn to modify content
+%------------------------------------------------------------------------------
+
+
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\begingroup
+\fontsize{10}{12}\selectfont
+
+\textit
+{"Um biotecnologista em formação à aspirante em bioinformática, interessado em explorar a complexidade dos sistemas biológicos e a biodiversidade latinoamericana utilizando linhas de código e diálogo. Acredita na ciência aberta como um vetor de desenvolvimento científico e tecnológico. Possui experiência em R e Python para análises genéticas, modelagem de sistemas biológicos e visualização de dados. Atualmente, busca por uma posição que contribua para aprimorar seus conhecimentos em ciência de dados aplicado à biotecnologia"}
+\endgroup
+
+\hypertarget{formauxe7uxe3o}{%
+\section{Formação}\label{formauxe7uxe3o}}
+
+\begin{cventries}
+    \cventry{Bacharelado em Biotecnologia}{Universidade Federal da Integração Latino-Americana (UNILA)}{Foz do Iguaçu, Paraná}{2017-Atualmente}{}\vspace{-4.0mm}
+    \cventry{Técnico em Eletrotécnica integrado ao Ensino Médio}{Fundação Escola Técnica Liberato Salzano Vieira da Cunha}{Novo Hamburgo, Rio Grande do Sul}{2013-2018}{}\vspace{-4.0mm}
+\end{cventries}
+
+\hypertarget{experiuxeancias-acaduxeamicas}{%
+\section{Experiências Acadêmicas}\label{experiuxeancias-acaduxeamicas}}
+
+\hypertarget{extensuxe3o}{%
+\subsection{Extensão}\label{extensuxe3o}}
+
+\begin{cventries}
+    \cventry{Monitor/\textit{Advisor}}{SynFronteras.Lab: Laboratório Virtual de Biologia Sintética}{Foz do Iguaçu, Paraná}{2022-Atualmente}{\begin{cvitems}
+\item Ensino de Biologia sintética à estudantes de nível médio e superior
+\item Coordenação de atividades de ensino
+\end{cvitems}}
+\end{cventries}
+
+\hypertarget{pesquisa}{%
+\subsection{Pesquisa}\label{pesquisa}}
+
+\begin{cventries}
+    \cventry{Bolsista de Iniciação Científica (UNILA/CNPq)}{Perfil alélico HLA-B de pacientes admitidos por COVID-19 na Unidade de Tratamento Intensivo (UTI).}{Foz do Iguaçu, Paraná}{2020-Atualmente}{\begin{cvitems}
+\item Sequenciamento Sanger
+\item Análise de dados
+\item Visualização de dados \href{https://chagas98.github.io/hlafozpublic/SupplementaryMaterial.html}{(\underline{Código})}
+\end{cvitems}}
+\end{cventries}
+
+\begin{cventries}
+    \cventry{Coordenador \textit{DryLab}}{\textit{International Genetically Engineered Machine Competition} (iGEM)}{Foz do Iguaçu, Paraná}{2020-2021}{\begin{cvitems}
+\item Fundador da \textit{UNILA_LatAm iGEM Team}
+\item Modelagem Cinética e Análise de Sensibilidade Global \href{https://github.com/chagas98/iGEM2021_Modeling}{(\underline{Código})}
+\item Predição de \textit{Toehold RNA Switches} \href{https://github.com/igemsoftware2021/CarpinchoToeholdDesigner}{(\underline{Código})}
+\item Participação em Editais de Fomento
+\end{cvitems}}
+\end{cventries}
+
+\begin{cventries}
+    \cventry{Bolsista de Iniciação Científica (Fundação Araucária)}{Produção e Funcionalização de Nanocelulose Bacteriana}{Foz do Iguaçu, Paraná}{2018-2019}{\begin{cvitems}
+\item Cultivo de \textit{Komagataeibacter xylinus}
+\item Planejamento de Experimentos
+\end{cvitems}}
+\end{cventries}
+
+\begin{cventries}
+    \cventry{Trabalho de Conclusão Nível Médio-Técnico}{Sistema de Monitoramento da Contaminação do Ar pelo Herbicida Glifosato}{Novo Hamburgo, Rio Grande do Sul}{2015-2016}{\begin{cvitems}
+\item Sensores eletroquímicos
+\item Sistemas eletrônicos embarcados
+\item Planejamento de Experimentos
+\end{cvitems}}
+\end{cventries}
+
+\hypertarget{representauxe7uxe3o}{%
+\subsection{Representação}\label{representauxe7uxe3o}}
+
+\begin{cventries}
+    \cventry{Representante Discente}{Colegiado do Curso de Biotecnologia - UNILA}{Foz do Iguaçu, Paraná}{2018-2019}{}\vspace{-4.0mm}
+\end{cventries}
+
+\begin{cventries}
+    \cventry{Membro Fundador  CABiotec - UNILA }{Centro Acadêmico de Biotecnologia}{Foz do Iguaçu, Paraná}{2017-2019}{}\vspace{-4.0mm}
+\end{cventries}
+
+\hypertarget{experiuxeancias-profissionais}{%
+\section{Experiências
+Profissionais}\label{experiuxeancias-profissionais}}
+
+\begin{cventries}
+    \cventry{Estágio - Técnico em Eletrotécnica (720 horas)}{Parque Tecnológico Itaipu (PTI - Brasil)}{Foz do Iguaçu, Paraná}{2017-2018}{\begin{cvitems}
+\item Auxiliar de Projetos Elétricos
+\item Instrumentação e Eficiência Energética
+\end{cvitems}}
+\end{cventries}
+
+\hypertarget{habilidades-e-qualificauxe7uxf5es}{%
+\section{Habilidades e
+Qualificações}\label{habilidades-e-qualificauxe7uxf5es}}
+
+\begingroup
+\fontsize{10}{12}\selectfont
+
+\begin{itemize}
+\tightlist
+\item
+  Linguagens de Programação: R, Python e Bash
+\item
+  \textit{Markup}: RMarkdown e HTML
+\item
+  Gerenciamento: Git/GitHub, GiHub Actions
+\item
+  Experiência em Sistemas UNIX/Linux
+\item
+  Sistemas eletrônicos embarcados (C++/Arduino)
+\end{itemize}
+
+\endgroup
+
+\hypertarget{comunicauxe7uxe3o}{%
+\section{Comunicação}\label{comunicauxe7uxe3o}}
+
+\begin{cvhonors}
+    \cvhonor{}{Nativo}{}{Português}
+    \cvhonor{}{Intermediário à Avançado}{}{Inglês}
+    \cvhonor{}{Intermediário}{}{Espanhol}
+\end{cvhonors}
+
+\hypertarget{pruxeamios}{%
+\section{Prêmios}\label{pruxeamios}}
+
+\begin{cvhonors}
+    \cvhonor{}{Medalha de Ouro e Nomeação de Melhor Projeto de Nova Aplicação na \textit{International Genetically Engineering Machine Competition} (iGEM)}{}{2021}
+    \cvhonor{}{Melhor Projeto de Escolha do Público no V Curso de Verão de Engenharia de Máquinas Biológicas - UFMG}{}{2020}
+    \cvhonor{}{Melhor Apresentação no V Curso de Verão de Engenharia de Máquinas Biológicas - UFMG}{}{2020}
+    \cvhonor{}{Primeiro Lugar. Menção Honrosa na área de Tecnologia e Produção no VII SEUNI - UNILA}{}{2019}
+    \cvhonor{}{Menção Honrosa UNESCO pelo Projeto de Relevância Social na Conferência Internacional de Ciência e Tecnologia de Nível Médio - MOSTRATEC/UNESCO}{}{2016}
+\end{cvhonors}
+
+
+\label{LastPage}~
+\end{document}
