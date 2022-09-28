@@ -23,11 +23,11 @@ library(vitae)
 ```
 
 ---
-
+\newcommand\tab[1][1cm]{\hspace*{#1}}
 \begingroup
 \fontsize{10}{12}\selectfont
-\textit
-{"Um biotecnologista em formação à aspirante em bioinformática, interessado em explorar a complexidade dos sistemas biológicos e a biodiversidade latinoamericana utilizando linhas de código e diálogo. Acredita na ciência aberta como um vetor de desenvolvimento científico e tecnológico. Possui experiência em R e Python para análises genéticas, modelagem de sistemas biológicos e visualização de dados. Atualmente, busca por uma posição que contribua para aprimorar seus conhecimentos em ciência de dados aplicado à biotecnologia"} 
+\tab[1cm]Um biotecnologista em formação à aspirante em bioinformática, interessado em explorar a complexidade dos sistemas biológicos com modelos computacionais. Tenho experiência com análise e visualização de dados biológicos em Python/R e atualmente, trabalho com estudos de associação genética e predição da afinidade de ligação entre o Sistema HLA e peptídeos virais. Além disso, sou um entuasiasta da biologia sintética e ciência aberta, interesses que me proporcionaram participar na competição \textit{International Genetically Engineered Machine} e ser um dos idealizadores do SynFronteras.Lab, um espaço para o ensino de biologia sintética.  
+
 \endgroup
 
 # Formação
@@ -49,12 +49,12 @@ tribble(
 ```{r}
 tribble(
   ~ Position, ~ Year, ~ Institution, ~ Where, ~Why,
-  "Monitor/\\textit{Advisor}", 
+  "Monitor/\\textit{Advisor} - \\textit{UNILA LatAm iGEM Team}", 
   "2022-Atualmente", 
   "SynFronteras.Lab: Laboratório Virtual de Biologia Sintética", 
   "Foz do Iguaçu, Paraná", 
-  c("Ensino de Biologia sintética à estudantes de nível médio e superior",
-    "Coordenação de atividades de ensino")) %>% 
+  c("Ensino de Biologia sintética à estudantes de nível médio e superior;",
+    "Coordenação de atividades de ensino.")) %>% 
   detailed_entries(Position, Year, Institution, Where, Why, .protect = FALSE)
 ```
 
@@ -64,34 +64,36 @@ tribble(
 ```{r}
 tribble(
   ~ Position, ~ Year, ~ Institution, ~ Where, ~Why,
-  "Bolsista de Iniciação Científica (UNILA/CNPq)", 
+  "Bolsista de Iniciação Científica (UNILA/CNPq) - Laboratório de Pesquisas em Ciências Médicas (LPCM)", 
   "2020-Atualmente", 
   "Perfil alélico HLA-B de pacientes admitidos por COVID-19 na Unidade de Tratamento Intensivo (UTI).", 
   "Foz do Iguaçu, Paraná", 
-  c("Sequenciamento Sanger",
-    "Análise de dados",
-    "Visualização de dados \\href{https://chagas98.github.io/hlafozpublic/SupplementaryMaterial.html}{(\\underline{Código})}")) %>% 
+  c("Extração de DNA de amostras sanguíneas",
+    "Sequenciamento Sanger",
+    "Análise Estatística",
+    "Visualização de Dados \\href{https://chagas98.github.io/hlafozpublic/SupplementaryMaterial.html}{(\\underline{Código}).}",
+    "Análide \\textit{in silico} de afinidade de ligação")) %>% 
   detailed_entries(Position, Year, Institution, Where, Why, .protect = FALSE)
 ```
 
 ```{r}
 tribble(
   ~ Position, ~ Year, ~ Institution, ~ Where, ~Why,
-  "Coordenador \\textit{DryLab}", 
+  "Coordenador \\textit{DryLab} - \\textit{UNILA LatAm iGEM Team}", 
   "2020-2021", 
   "\\textit{International Genetically Engineered Machine Competition} (iGEM)", 
   "Foz do Iguaçu, Paraná", 
-  c("Fundador da \\textit{UNILA_LatAm iGEM Team}", 
-    "Modelagem Cinética e Análise de Sensibilidade Global \\href{https://github.com/chagas98/iGEM2021_Modeling}{(\\underline{Código})}", 
+  c("Fundador da Equipe iGEM UNILA LatAm", 
+    "Modelagem Cinética e Análise de Sensibilidade \\href{https://github.com/chagas98/iGEM2021_Modeling}{(\\underline{Código})}", 
     "Predição de \\textit{Toehold RNA Switches} \\href{https://github.com/igemsoftware2021/CarpinchoToeholdDesigner}{(\\underline{Código})}",
-    "Participação em Editais de Fomento")) %>% 
+    "Aplicação em Editais de Fomento")) %>% 
   detailed_entries(Position, Year, Institution, Where, Why, .protect = FALSE)
 ```
 
 ```{r}
 tribble(
   ~ Position, ~ Year, ~ Institution, ~ Where, ~Why,
-  "Bolsista de Iniciação Científica (Fundação Araucária)", 
+  "Bolsista de Iniciação Científica (Fundação Araucária) - GPENSE", 
   "2018-2019", 
   "Produção e Funcionalização de Nanocelulose Bacteriana", 
   "Foz do Iguaçu, Paraná", 
@@ -104,13 +106,13 @@ tribble(
 ```{r}
 tribble(
   ~ Position, ~ Year, ~ Institution, ~ Where, ~Why,
-  "Trabalho de Conclusão Nível Médio-Técnico", 
+  "Traballho de Conclusão Nível Técnico-Médio", 
   "2015-2016", 
-  "Sistema de Monitoramento da Contaminação do Ar pelo Herbicida Glifosato",
+  "Sistema WindToxic: Sistema de Monitoramento da Contaminação do Ar pelo Herbicida Glifosato",
   "Novo Hamburgo, Rio Grande do Sul", 
-  c("Sensores eletroquímicos",
-    "Sistemas eletrônicos embarcados",
-    "Planejamento de Experimentos"
+  c("Sensores Eletroquímicos",
+    "Microcontroladores e Instrumentação",
+    "Planejamento de Experimentos."
     )) %>% 
   detailed_entries(Position, Year, Institution, Where, Why, .protect = FALSE)
 ```
@@ -152,11 +154,13 @@ tribble(
 
 \begingroup
 \fontsize{10}{12}\selectfont
+
 * Linguagens de Programação: R, Python e Bash
 * \textit{Markup}: RMarkdown e HTML
-* Gerenciamento: Git/GitHub, GiHub Actions
-* Experiência em Sistemas UNIX/Linux
-* Sistemas eletrônicos embarcados (C++/Arduino)
+* Gerenciamento: Git/GitHub, GitHub Actions
+* Sistemas UNIX/Linux
+* Sistemas eletrônicos embarcados (C++/Arduino) 
+* Sensores eletroquímicos
 
 \endgroup
 
@@ -178,7 +182,7 @@ tribble(
 ```{r}
 tribble(
   ~Year, ~Type,
-  2021, "Medalha de Ouro e Nomeação de Melhor Projeto de Nova Aplicação na \\textit{International Genetically Engineering Machine Competition} (iGEM)",
+  2021, "Medalha de Ouro e Nomeação de Melhor Projeto de Nova Aplicação e Práticas Humanas na \\textit{International Genetically Engineering Machine Competition} (iGEM)",
   2020, "Melhor Projeto de Escolha do Público no V Curso de Verão de Engenharia de Máquinas Biológicas - UFMG",
   2020, "Melhor Apresentação no V Curso de Verão de Engenharia de Máquinas Biológicas - UFMG",
   2019, "Primeiro Lugar. Menção Honrosa na área de Tecnologia e Produção no VII SEUNI - UNILA",
