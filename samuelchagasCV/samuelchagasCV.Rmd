@@ -2,10 +2,11 @@
 name: Samuel Chagas de Assis
 date: "`r format(Sys.time(), '%B, %Y')`"
 qualifications: BCom(Hons), BSc
-#address: Foz do Iguaçu, Brasil
+address: Foz do Iguaçu, Brasil
 #profilepic: samuelphoto.jpg
 email: samuel.achagas98@gmail.com
 www: chagas98.github.io
+phone: "+55 51 996957538"
 #github: chagas98
 linkedin: samuelchagass
 position: Programador - Biotecnologista
@@ -50,7 +51,7 @@ tribble(
 tribble(
   ~ Position, ~ Year, ~ Institution, ~ Where, ~Why,
   "Monitor/\\textit{Advisor} - \\textit{UNILA LatAm iGEM Team}", 
-  "2022-Atualmente", 
+  "2021-Atualmente", 
   "SynFronteras.Lab: Laboratório Virtual de Biologia Sintética", 
   "Foz do Iguaçu, Paraná", 
   c("Ensino de Biologia sintética à estudantes de nível médio e superior;",
@@ -70,8 +71,7 @@ tribble(
   "Foz do Iguaçu, Paraná", 
   c("Extração de DNA de amostras sanguíneas",
     "Sequenciamento Sanger",
-    "Análise Estatística",
-    "Visualização de Dados \\href{https://chagas98.github.io/hlafozpublic/SupplementaryMaterial.html}{(\\underline{Código}).}",
+    "Análise e Visualização de Dados \\href{https://chagas98.github.io/hlafozpublic/SupplementaryMaterial.html}{(\\underline{Código}).}",
     "Análide \\textit{in silico} de afinidade de ligação")) %>% 
   detailed_entries(Position, Year, Institution, Where, Why, .protect = FALSE)
 ```
@@ -159,8 +159,7 @@ tribble(
 * \textit{Markup}: RMarkdown e HTML
 * Gerenciamento: Git/GitHub, GitHub Actions
 * Sistemas UNIX/Linux
-* Sistemas eletrônicos embarcados (C++/Arduino) 
-* Sensores eletroquímicos
+
 
 \endgroup
 
