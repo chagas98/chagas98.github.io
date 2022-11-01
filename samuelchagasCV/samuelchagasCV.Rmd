@@ -181,6 +181,7 @@ tribble(
 ```{r}
 tribble(
   ~Year, ~Type,
+  2022, "Primeiro Lugar. Menção Honrosa na área de Ciências da Saúde no XI EICTI - UNILA",
   2021, "Medalha de Ouro e Nomeação de Melhor Projeto de Nova Aplicação e Práticas Humanas na \\textit{International Genetically Engineering Machine Competition} (iGEM)",
   2020, "Melhor Projeto de Escolha do Público no V Curso de Verão de Engenharia de Máquinas Biológicas - UFMG",
   2020, "Melhor Apresentação no V Curso de Verão de Engenharia de Máquinas Biológicas - UFMG",
