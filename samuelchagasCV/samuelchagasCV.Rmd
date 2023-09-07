@@ -27,7 +27,7 @@ library(vitae)
 \newcommand\tab[1][1cm]{\hspace*{#1}}
 \begingroup
 \fontsize{10}{12}\selectfont
-\tab[1cm]Um biotecnologista em formação à aspirante em bioinformática, interessado em explorar a complexidade dos sistemas biológicos com modelos computacionais. Tenho experiência com análise e visualização de dados biológicos em Python/R e atualmente, trabalho com estudos de associação genética e predição da afinidade de ligação entre o Sistema HLA e peptídeos virais. Além disso, sou um entuasiasta da biologia sintética e ciência aberta, interesses que me proporcionaram participar na competição \textit{International Genetically Engineered Machine} e ser um dos idealizadores do SynFronteras.Lab, um espaço para o ensino de biologia sintética.  
+\tab[1cm]Um biotecnologista em formação à aspirante em bioinformática, interessado em explorar a complexidade dos sistemas biológicos com modelos computacionais. Tenho experiência com análise e visualização de dados biológicos em Python/R e atualmente, realizo estágio no grupo de Biocatálise Computacional do Laboratório Nacional de Biorrenováveis (LNBR) - Centro Nacional de Pesquisa em Energia e Materiais (CNPEM), realizando simulações de dinâmica molecular e análise de dados. Além disso, possuo experiência em estudos de associação genética e predição da afinidade de ligação entre o Sistema HLA e peptídeos virais. Sou um entuasiasta da biologia sintética e ciência aberta, interesses que me proporcionaram participar na competição \textit{International Genetically Engineered Machine} e ser um dos idealizadores do SynFronteras.Lab, um espaço para o ensino de biologia sintética.  
 
 \endgroup
 
@@ -51,7 +51,7 @@ tribble(
 tribble(
   ~ Position, ~ Year, ~ Institution, ~ Where, ~Why,
   "Monitor/\\textit{Advisor} - \\textit{UNILA LatAm iGEM Team}", 
-  "2021-Atualmente", 
+  "2021-2022", 
   "SynFronteras.Lab: Laboratório Virtual de Biologia Sintética", 
   "Foz do Iguaçu, Paraná", 
   c("Ensino de Biologia sintética à estudantes de nível médio e superior;",
@@ -66,7 +66,7 @@ tribble(
 tribble(
   ~ Position, ~ Year, ~ Institution, ~ Where, ~Why,
   "Bolsista de Iniciação Científica (UNILA/CNPq) - Laboratório de Pesquisas em Ciências Médicas (LPCM)", 
-  "2020-Atualmente", 
+  "2020-2022", 
   "Perfil alélico HLA-B de pacientes admitidos por COVID-19 na Unidade de Tratamento Intensivo (UTI).", 
   "Foz do Iguaçu, Paraná", 
   c("Extração de DNA de amostras sanguíneas",
@@ -144,6 +144,24 @@ tribble(
 ```{r}
 tribble(
   ~ Position, ~ Year, ~ Institution, ~ Where, ~ Why,
+  "Estágio - Biocatálise Computacional", "02.2023-Atualmente", "Centro Nacional de Pesquisa em Energia e Materiais (CNPEM)", "Campinas, São Paulo",
+  c("Dinâmica Molecular de proteínas com interesse biotecnológico na produção de biocombustíveis", "Desenvolvimento e utilização de pacotes em Python (MDAnalysis, NumPy, Seaborn, SciPy)", "High-Performance Computing")
+) %>% 
+  detailed_entries(Position, Year, Institution, Where, Why)
+```
+
+```{r}
+tribble(
+  ~ Position, ~ Year, ~ Institution, ~ Where, ~ Why,
+  "Freelancer - Analista de Dados Júnior", "10.2022-02.2023", "SporeData Inc.", "Remoto",
+  c("Análise e visualização de dados em R (ggplot2, tidyverse, RStats, RMarkdown)", "Processamento de dados em nuvem (N3C)", "Reporting de dados de bioestatística para estudos clínicos")
+) %>% 
+  detailed_entries(Position, Year, Institution, Where, Why)
+```
+
+```{r}
+tribble(
+  ~ Position, ~ Year, ~ Institution, ~ Where, ~ Why,
   "Estágio - Técnico em Eletrotécnica (720 horas)", "2017-2018", "Parque Tecnológico Itaipu (PTI - Brasil)", "Foz do Iguaçu, Paraná",
   c("Auxiliar de Projetos Elétricos", "Instrumentação e Eficiência Energética")
 ) %>% 
@@ -157,7 +175,7 @@ tribble(
 
 * Linguagens de Programação: R, Python e Bash
 * \textit{Markup}: RMarkdown e HTML
-* Gerenciamento: Git/GitHub, GitHub Actions
+* Gerenciamento: Git/GitHub, GitHub Actions, Slurm
 * Sistemas UNIX/Linux
 
 
@@ -194,4 +212,14 @@ tribble(
     Type,
     Year, .protect = FALSE)
 ```
+
+# Publicações
+
+\begingroup
+\fontsize{10}{12}\selectfont
+
+* **De Assis**, S.C., Morgado, D.L., Scheidt, D.T., De Souza, S.S., Cavallari, M.R., Ando , O.H.J., Carrilho, E. (2023). Review of Bacterial Nanocellulose-Based Electrochemical Biosensors: Functionalization, Challenges, and Future Perspectives. *MDPI Biosensors*, 13. [https://doi.org/10.3390/bios13010142](https://doi.org/10.3390/bios13010142)
+
+
+\endgroup
 
