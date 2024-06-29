@@ -492,7 +492,7 @@ section,
   margin: 0;
   font-size: 64px;
   font-weight: 700;
-  color: var(--heading-color);
+  color: var(--heading-color-name);
 }
 
 .hero p {
@@ -519,12 +519,18 @@ section,
   transition: 0.3s;
 }
 
+.hero-header {
+  display: flex;
+  align-items: center;
+  gap: 100px; /* Adjust the gap as needed */
+}
+
 .hero .profile-photo {
-  width: 150px;
-  height: 150px;
+  width: 150px; /* Adjust size as needed */
+  height: 150px; /* Adjust size as needed */
   border-radius: 50%;
   object-fit: cover;
-  margin-bottom: 20px;
+  margin-bottom: 20px; /* Add spacing below the photo */
 }
 
 .hero .social-links a:hover {
@@ -545,6 +551,7 @@ section,
     height: 100px;
   }
 }
+
 
 /*--------------------------------------------------------------
 # About Section
