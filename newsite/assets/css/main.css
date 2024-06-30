@@ -571,6 +571,10 @@ section,
   font-size: 24px;
 }
 
+.about p {
+  font-size: 24px;
+}
+
 .about .content ul {
   list-style: none;
   padding: 0;
@@ -591,6 +595,19 @@ section,
   margin-right: 5px;
   color: var(--accent-color);
   line-height: 0;
+}
+
+.about .social-links {
+  margin-top: 30px;
+}
+
+.about .social-links a {
+  font-size: 40px;
+  display: inline-block;
+  color: #741616;
+  line-height: 1;
+  margin-right: 20px;
+  transition: 0.3s;
 }
 
 /*--------------------------------------------------------------
@@ -652,6 +669,10 @@ section,
   border: 2px solid var(--accent-color);
 }
 
+.projects p {
+  font-size: 20px;
+}
+
 /*--------------------------------------------------------------
 # Contact Section
 --------------------------------------------------------------*/
@@ -681,6 +702,7 @@ section,
 
 .contact p {
   color: var(--accent-color-new);
+  font-size: 24px;
 }
 
 .contact img {
