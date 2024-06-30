@@ -738,6 +738,8 @@ section,
   min-height: 100vh;
   position: relative;
   padding: 80px 0;
+  align-items: center;
+  justify-content: center;
 }
 
 .contact-header {
@@ -747,11 +749,10 @@ section,
   align-items: center;
 }
 
+
 .contact h2 {
-  margin: 0;
-  color: var(--heading-color-name);
-  position: relative;
-  z-index: 4;
+  font-weight: 700;
+  font-size: 24px;
   color: var(--accent-color-new);
 }
 
