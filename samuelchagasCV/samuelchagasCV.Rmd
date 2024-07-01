@@ -2,14 +2,13 @@
 name: Samuel Chagas de Assis
 date: "`r format(Sys.time(), '%B, %Y')`"
 qualifications: BCom(Hons), BSc
-address: Foz do Iguaçu, Brasil
+address: Campinas, São Paulo - Brazil
 #profilepic: samuelphoto.jpg
 email: samuel.achagas98@gmail.com
 www: chagas98.github.io
-phone: "+55 51 996957538"
-#github: chagas98
+github: chagas98
 linkedin: samuelchagass
-position: Programador - Biotecnologista
+position: Biotechnologist - Computational Biologist
 #twitter: mitchoharawild
 headcolor: 2983f3
 
@@ -24,128 +23,34 @@ library(vitae)
 ```
 
 ---
+
+# About me
 \newcommand\tab[1][1cm]{\hspace*{#1}}
 \begingroup
 \fontsize{10}{12}\selectfont
-\tab[1cm]Um biotecnologista em formação à aspirante em bioinformática, interessado em explorar a complexidade dos sistemas biológicos com modelos computacionais. Tenho experiência com análise e visualização de dados biológicos em Python/R e atualmente, realizo estágio no grupo de Biocatálise Computacional do Laboratório Nacional de Biorrenováveis (LNBR) - Centro Nacional de Pesquisa em Energia e Materiais (CNPEM), realizando simulações de dinâmica molecular e análise de dados. Além disso, possuo experiência em estudos de associação genética e predição da afinidade de ligação entre o Sistema HLA e peptídeos virais. Sou um entuasiasta da biologia sintética e ciência aberta, interesses que me proporcionaram participar na competição \textit{International Genetically Engineered Machine} e ser um dos idealizadores do SynFronteras.Lab, um espaço para o ensino de biologia sintética.  
+\tab[1cm]I'm a computational biologist fascinated by understanding the molecular biodiversity and mechanisms. I have experience with workflow development in Python and R, molecular dynamics simulations data analysis, and immunogenetics. Currently, my work focuses on workflow development through documentation, automation, and reproducibility. I’m an intern researcher at the Computational Biocatalysis Group at LNBR/CNPEM in Brazil, where I work with specific Carbohydrate-Active Enzymes for microbiome and structural biology research projects using biomolecular modeling data and biochemical interpretation. In my free time, I enjoy running, reading about Latin culture, and cooking plant-based recipes. 
 
 \endgroup
 
-# Formação
+# Education
 
 ```{r}
 library(tibble)
 tribble(
   ~ Degree, ~ Year, ~ Institution, ~ Where,
- "Bacharelado em Biotecnologia", "2017-Atualmente", "Universidade Federal da Integração Latino-Americana (UNILA)", "Foz do Iguaçu, Paraná",
- "Técnico em Eletrotécnica integrado ao Ensino Médio", "2013-2018", "Fundação Escola Técnica Liberato Salzano Vieira da Cunha", "Novo Hamburgo, Rio Grande do Sul"
+ "Bachelor in Biotechnology", "2018-2024", "Federal University of Latin-American Integration (UNILA)", "Foz do Iguaçu, Brazil",
+ "Electrical Technician", "2013-2017", "Liberato Salzano Vieira da Cunha Foudation", "Novo Hamburgo, Brazil"
 ) %>% 
   detailed_entries(Degree, Year, Institution, Where)
 ```
 
-# Experiências Acadêmicas
-
-## Extensão
-
-```{r}
-tribble(
-  ~ Position, ~ Year, ~ Institution, ~ Where, ~Why,
-  "Monitor/\\textit{Advisor} - \\textit{UNILA LatAm iGEM Team}", 
-  "2021-2022", 
-  "SynFronteras.Lab: Laboratório Virtual de Biologia Sintética", 
-  "Foz do Iguaçu, Paraná", 
-  c("Ensino de Biologia sintética à estudantes de nível médio e superior;",
-    "Coordenação de atividades de ensino.")) %>% 
-  detailed_entries(Position, Year, Institution, Where, Why, .protect = FALSE)
-```
-
-
-## Pesquisa
-
-```{r}
-tribble(
-  ~ Position, ~ Year, ~ Institution, ~ Where, ~Why,
-  "Bolsista de Iniciação Científica (UNILA/CNPq) - Laboratório de Pesquisas em Ciências Médicas (LPCM)", 
-  "2020-2022", 
-  "Perfil alélico HLA-B de pacientes admitidos por COVID-19 na Unidade de Tratamento Intensivo (UTI).", 
-  "Foz do Iguaçu, Paraná", 
-  c("Extração de DNA de amostras sanguíneas",
-    "Sequenciamento Sanger",
-    "Análise e Visualização de Dados \\href{https://chagas98.github.io/hlafozpublic/SupplementaryMaterial.html}{(\\underline{Código}).}",
-    "Análide \\textit{in silico} de afinidade de ligação")) %>% 
-  detailed_entries(Position, Year, Institution, Where, Why, .protect = FALSE)
-```
-
-```{r}
-tribble(
-  ~ Position, ~ Year, ~ Institution, ~ Where, ~Why,
-  "Coordenador \\textit{DryLab} - \\textit{UNILA LatAm iGEM Team}", 
-  "2020-2021", 
-  "\\textit{International Genetically Engineered Machine Competition} (iGEM)", 
-  "Foz do Iguaçu, Paraná", 
-  c("Fundador da Equipe iGEM UNILA LatAm", 
-    "Modelagem Cinética e Análise de Sensibilidade \\href{https://github.com/chagas98/iGEM2021_Modeling}{(\\underline{Código})}", 
-    "Predição de \\textit{Toehold RNA Switches} \\href{https://github.com/igemsoftware2021/CarpinchoToeholdDesigner}{(\\underline{Código})}",
-    "Aplicação em Editais de Fomento")) %>% 
-  detailed_entries(Position, Year, Institution, Where, Why, .protect = FALSE)
-```
-
-```{r}
-tribble(
-  ~ Position, ~ Year, ~ Institution, ~ Where, ~Why,
-  "Bolsista de Iniciação Científica (Fundação Araucária) - GPENSE", 
-  "2018-2019", 
-  "Produção e Funcionalização de Nanocelulose Bacteriana", 
-  "Foz do Iguaçu, Paraná", 
-  c("Cultivo de \\textit{Komagataeibacter xylinus}",
-    "Planejamento de Experimentos"
-    )) %>% 
-  detailed_entries(Position, Year, Institution, Where, Why, .protect = FALSE)
-```
-
-```{r}
-tribble(
-  ~ Position, ~ Year, ~ Institution, ~ Where, ~Why,
-  "Traballho de Conclusão Nível Técnico-Médio", 
-  "2015-2016", 
-  "Sistema WindToxic: Sistema de Monitoramento da Contaminação do Ar pelo Herbicida Glifosato",
-  "Novo Hamburgo, Rio Grande do Sul", 
-  c("Sensores Eletroquímicos",
-    "Microcontroladores e Instrumentação",
-    "Planejamento de Experimentos."
-    )) %>% 
-  detailed_entries(Position, Year, Institution, Where, Why, .protect = FALSE)
-```
-
-## Representação
-
-```{r}
-tribble(
-  ~ Position, ~ Year, ~ Institution, ~ Where,
-  "Representante Discente", 
-  "2018-2019", 
-  "Colegiado do Curso de Biotecnologia - UNILA", 
-  "Foz do Iguaçu, Paraná") %>% 
-  detailed_entries(Position, Year, Institution, Where, .protect = FALSE)
-```
-
-```{r}
-tribble(
-  ~ Position, ~ Year, ~ Institution, ~ Where,
-  "Membro Fundador  CABiotec - UNILA ", 
-  "2017-2019", 
-  "Centro Acadêmico de Biotecnologia", 
-  "Foz do Iguaçu, Paraná") %>% 
-  detailed_entries(Position, Year, Institution, Where, .protect = FALSE)
-```
-
-# Experiências Profissionais
+# Experience
 
 ```{r}
 tribble(
   ~ Position, ~ Year, ~ Institution, ~ Where, ~ Why,
-  "Estágio - Biocatálise Computacional", "02.2023-Atualmente", "Centro Nacional de Pesquisa em Energia e Materiais (CNPEM)", "Campinas, São Paulo",
-  c("Dinâmica Molecular de proteínas com interesse biotecnológico na produção de biocombustíveis", "Desenvolvimento e utilização de pacotes em Python (MDAnalysis, NumPy, Seaborn, SciPy)", "High-Performance Computing")
+  "Computational Biocatalysis Intern", "2023-Present", "Brazilian Center for Research in Energy and Materials (CNPEM)", "Campinas, São Paulo",
+  c("I have performed data analysis of several molecular dynamics simulations, primarily using Python and Shell scripting compatible with SLURM HPC environment. The main goal are new insights about molecular mechanisms from new Carbohydrate-Active enzyme families.", "| Gromacs | SLURM/HPC | Python/MDAnalysis | Python/Autodock Vina | Conda/Bioconda | Pymol/VMD |")
 ) %>% 
   detailed_entries(Position, Year, Institution, Where, Why)
 ```
@@ -153,7 +58,7 @@ tribble(
 ```{r}
 tribble(
   ~ Position, ~ Year, ~ Institution, ~ Where, ~ Why,
-  "Freelancer - Analista de Dados Júnior", "10.2022-02.2023", "SporeData Inc.", "Remoto",
+  "Freelancer - Jr Data Analyst", "2022-2022", "SporeData Inc.", "Remote",
   c("Análise e visualização de dados em R (ggplot2, tidyverse, RStats, RMarkdown)", "Processamento de dados em nuvem (N3C)", "Reporting de dados de bioestatística para estudos clínicos")
 ) %>% 
   detailed_entries(Position, Year, Institution, Where, Why)
