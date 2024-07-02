@@ -28,7 +28,7 @@ library(vitae)
 \newcommand\tab[1][1cm]{\hspace*{#1}}
 \begingroup
 \fontsize{10}{12}\selectfont
-\tab[1cm]I'm a computational biologist fascinated by understanding the molecular biodiversity and mechanisms. I have experience with workflow development in Python and R, molecular dynamics simulations data analysis, and immunogenetics. Currently, my work focuses on workflow development through documentation, automation, and reproducibility. I’m an intern researcher at the Computational Biocatalysis Group at LNBR/CNPEM in Brazil, where I work with specific Carbohydrate-Active Enzymes for microbiome and structural biology research projects using biomolecular modeling data and biochemical interpretation. In my free time, I enjoy running, reading about Latin culture, and cooking plant-based recipes. 
+\tab[1cm]I'm a computational biologist fascinated by understanding the molecular biodiversity and mechanisms. I have experience with workflow development in Python and R, molecular dynamics simulations data analysis, and immunogenetics. Currently, my work focuses on workflow development through documentation, automation, and reproducibility. I’m an intern researcher at the Computational Biocatalysis Group at LNBR/CNPEM in Brazil, where I work with specific Carbohydrate-Active Enzymes for microbiome and structural biology research projects using biomolecular modeling data and biochemical interpretation. When I have some time, I enjoy to draw molecular scientific illustrations and cooking plant-based recipes. 
 
 \endgroup
 
@@ -49,7 +49,7 @@ tribble(
 ```{r}
 tribble(
   ~ Position, ~ Year, ~ Institution, ~ Where, ~ Why,
-  "Computational Biocatalysis Intern", "2023-Present", "Brazilian Center for Research in Energy and Materials (CNPEM)", "Campinas, São Paulo",
+  "Computational Biocatalysis Intern", "Feb 2023 - Present", "Brazilian Center for Research in Energy and Materials (CNPEM)", "Campinas, São Paulo",
   c("I have performed data analysis of several molecular dynamics simulations, primarily using Python and Shell scripting compatible with SLURM HPC environment. The main goal are new insights about molecular mechanisms from new Carbohydrate-Active enzyme families.", "| Gromacs | SLURM/HPC | Python/MDAnalysis | Python/Autodock Vina | Conda/Bioconda | Pymol/VMD |")
 ) %>% 
   detailed_entries(Position, Year, Institution, Where, Why)
@@ -58,8 +58,8 @@ tribble(
 ```{r}
 tribble(
   ~ Position, ~ Year, ~ Institution, ~ Where, ~ Why,
-  "Freelancer - Jr Data Analyst", "2022-2022", "SporeData Inc.", "Remote",
-  c("Análise e visualização de dados em R (ggplot2, tidyverse, RStats, RMarkdown)", "Processamento de dados em nuvem (N3C)", "Reporting de dados de bioestatística para estudos clínicos")
+  "Freelancer - Jr Data Analyst", "Oct 2022 - Feb 2023", "SporeData Inc.", "Remote",
+  c("Worked as a freelancer on healthcare data projects, performing ETL, cohort generation, data visualization, clinical study reports, and statistical analyses.", "| R/Tidyverse | RStats | RMarkdown | Cloud/N3C |")
 ) %>% 
   detailed_entries(Position, Year, Institution, Where, Why)
 ```
@@ -67,8 +67,26 @@ tribble(
 ```{r}
 tribble(
   ~ Position, ~ Year, ~ Institution, ~ Where, ~ Why,
-  "Estágio - Técnico em Eletrotécnica (720 horas)", "2017-2018", "Parque Tecnológico Itaipu (PTI - Brasil)", "Foz do Iguaçu, Paraná",
-  c("Auxiliar de Projetos Elétricos", "Instrumentação e Eficiência Energética")
+  "Undergraduate Researcher", "Aug 2020 - Mar 2023", "Medical Genetics Lab - UNILA", "Foz do Iguaçu, Paraná",
+  c("I have performed DNA sequencing and HLA-B analysis of COVID-19 patients, gathering clinical and genomic data, along with HLA-epitopes binding affinities from computational predictions, to study the mutational landscape of SARS-CoV-2 variants in Foz do Iguaçu. I worked in a Nextflow pipeline to collect, transform and visualize missense mutations affecting HLA-apitopes.", "| Missense mutation analyses | GISAID | Nextflow | Bash | Python | R | Sanger Sequencing/Wet Lab | netMHCpan4.1 |")
+) %>% 
+  detailed_entries(Position, Year, Institution, Where, Why)
+```
+
+```{r}
+tribble(
+  ~ Position, ~ Year, ~ Institution, ~ Where, ~ Why,
+  "DryLab Coordinator", "Jan 2020 - Dez 2021", "International Genetically Engineered Machine Competition (iGEM)", "Foz do Iguaçu, Paraná",
+  c("", "| system biology modeling | Python/Scipy | Python/NUPACK | R/ggplot2 | ODEs/Modeling |")
+) %>% 
+  detailed_entries(Position, Year, Institution, Where, Why)
+```
+
+```{r}
+tribble(
+  ~ Position, ~ Year, ~ Institution, ~ Where, ~ Why,
+  "Undergraduate Researcher", "Jun 2018 - Dez 2019", "Microbiology and Biochemical Lab - UNILA", "Foz do Iguaçu, Paraná",
+  c("", "|  |")
 ) %>% 
   detailed_entries(Position, Year, Institution, Where, Why)
 ```
@@ -87,16 +105,12 @@ tribble(
 \endgroup
 
 
-# Comunicação
-
 ```{r}
 tribble(
-  ~Lang, ~Level,
-  "Português", "Nativo",
-  "Inglês", "Intermediário à Avançado",
-  "Espanhol", "Intermediário"
+  ~ Position, ~ Year, ~ Institution, ~ Where, ~ Why,
+  "Undergraduate Researcher", "Jun 2018 - Dez 2019", "Microbiology and Biochemical Lab - UNILA", "Foz do Iguaçu, Paraná", c()
 ) %>% 
-  brief_entries(Level,Lang)
+  detailed_entries(Position, Year, Institution, Where, Why)
 ```
 
 # Prêmios
