@@ -28,7 +28,7 @@ library(vitae)
 \newcommand\tab[1][1cm]{\hspace*{#1}}
 \begingroup
 \fontsize{10}{12}\selectfont
-\tab[1cm]I'm a computational biologist fascinated by understanding the molecular biodiversity and mechanisms. I have experience with workflow development in Python and R, molecular dynamics simulations data analysis, and immunogenetics. Currently, my work focuses on workflow development through documentation, automation, and reproducibility. I’m an intern researcher at the Computational Biocatalysis Group at LNBR/CNPEM in Brazil, where I work with specific Carbohydrate-Active Enzymes for microbiome and structural biology research projects using biomolecular modeling data and biochemical interpretation. When I have some time, I enjoy to draw molecular scientific illustrations and cooking plant-based recipes. 
+\tab[1cm]I'm a computational biologist fascinated by understanding the molecular biodiversity and mechanisms. I have experience with workflow development in Python and R, molecular dynamics simulations, and immunogenetics. Currently, my work focuses on workflow development through documentation, automation, and reproducibility. I’m an intern researcher at the Computational Biocatalysis Group at LNBR/CNPEM in Brazil, where I work with specific Carbohydrate-Active Enzymes for microbiome and structural biology research projects using biomolecular modeling data and biochemical interpretation. I have been delivering valuable insights throughout research projects and dedicating myself to developing useful tools to enhance group performance. In my free time, I enjoy drawing molecular scientific illustrations and cooking plant-based recipes. 
 
 \endgroup
 
@@ -50,7 +50,7 @@ tribble(
 tribble(
   ~ Position, ~ Year, ~ Institution, ~ Where, ~ Why,
   "Computational Biocatalysis Intern", "Feb 2023 - Present", "Brazilian Center for Research in Energy and Materials (CNPEM)", "Campinas, São Paulo",
-  c("I have performed data analysis of several molecular dynamics simulations, primarily using Python and Shell scripting compatible with SLURM HPC environment. The main goal are new insights about molecular mechanisms from new Carbohydrate-Active enzyme families.", "| Gromacs | SLURM/HPC | Python/MDAnalysis | Python/Autodock Vina | Conda/Bioconda | Pymol/VMD |")
+  c("I have performed data analysis of several molecular dynamics simulations, primarily using Python and Shell scripting compatible with Slurm HPC environment. The main goal are new insights about molecular mechanisms from new Carbohydrate-Active enzyme families, which benefits the experimental team for mutation screening and activity assays.", "| Gromacs | Slurm/HPC | Python/MDAnalysis | Autodock Vina | Conda/Bioconda | Pymol/VMD |")
 ) %>% 
   detailed_entries(Position, Year, Institution, Where, Why)
 ```
@@ -59,7 +59,7 @@ tribble(
 tribble(
   ~ Position, ~ Year, ~ Institution, ~ Where, ~ Why,
   "Freelancer - Jr Data Analyst", "Oct 2022 - Feb 2023", "SporeData Inc.", "Remote",
-  c("Worked as a freelancer on healthcare data projects, performing ETL, cohort generation, data visualization, clinical study reports, and statistical analyses.", "| R/Tidyverse | RStats | RMarkdown | Cloud/N3C |")
+  c("Worked as a freelancer on healthcare data projects, performing ETL, cohort generation, data visualization, clinical study reports, and statistical analyses.", "| R/Tidyverse | SparkR | RMarkdown | Cloud/N3C |")
 ) %>% 
   detailed_entries(Position, Year, Institution, Where, Why)
 ```
@@ -67,64 +67,82 @@ tribble(
 ```{r}
 tribble(
   ~ Position, ~ Year, ~ Institution, ~ Where, ~ Why,
-  "Undergraduate Researcher", "Aug 2020 - Mar 2023", "Medical Genetics Lab - UNILA", "Foz do Iguaçu, Paraná",
-  c("I have performed DNA sequencing and HLA-B analysis of COVID-19 patients, gathering clinical and genomic data, along with HLA-epitopes binding affinities from computational predictions, to study the mutational landscape of SARS-CoV-2 variants in Foz do Iguaçu. I worked in a Nextflow pipeline to collect, transform and visualize missense mutations affecting HLA-apitopes.", "| Missense mutation analyses | GISAID | Nextflow | Bash | Python | R | Sanger Sequencing/Wet Lab | netMHCpan4.1 |")
+  "Undergraduate Researcher", "Aug 2020 - Mar 2023", "Medical Genetics Lab - UNILA", "Foz do Iguaçu, Brazil",
+  c("I performed DNA sequencing and HLA-B analysis of COVID-19 patients, gathering clinical and genomic data, along with HLA-epitope binding affinities from computational predictions, to study the mutational landscape of SARS-CoV-2 variants in Foz do Iguaçu. I worked with a Nextflow pipeline to collect, transform, and visualize missense mutations affecting HLA epitopes. The result is an easy-to-use pipeline that contributes to genomic surveillance approaches for a Brazilian border research group. \\href{https://github.com/chagas98/sarscovHLAFoz}{(\\underline{Details})}", "| Missense mutation analyses | GISAID | Nextflow | Bash | Python | R | Sanger Sequencing/Wet Lab | netMHCpan4.1 |")
 ) %>% 
-  detailed_entries(Position, Year, Institution, Where, Why)
+  detailed_entries(Position, Year, Institution, Where, Why, .protect = FALSE)
 ```
 
 ```{r}
 tribble(
   ~ Position, ~ Year, ~ Institution, ~ Where, ~ Why,
-  "DryLab Coordinator", "Jan 2020 - Dez 2021", "International Genetically Engineered Machine Competition (iGEM)", "Foz do Iguaçu, Paraná",
-  c("", "| system biology modeling | Python/Scipy | Python/NUPACK | R/ggplot2 | ODEs/Modeling |")
+  "DryLab Coordinator", "Jan 2020 - Dez 2021", "International Genetically Engineered Machine Competition (iGEM)", "Paris, France",
+  c("As the Head of DryLab at the iGEM UNILA LatAm Team, I led the development of a kinetic model with parameter optimization. We used an Ordinary Differential Equations (ODEs) framework coupled with sensitivity analysis to evaluate the performance of our synthetic genetic circuit. This model provided valuable insights to the experimental team, helping them design experiments and identify key parameters to improve system performance. Also, we built the Carpincho Toehold Generator, specialized in the design of Toeholds for miRNAs detection, using Python and NUPACK API. \\href{https://github.com/chagas98/iGEM2021_Modeling}{(\\underline{Details})}", "| System biology | Python/Scipy | Python/NUPACK | R/ggplot2 | ODEs |")
 ) %>% 
-  detailed_entries(Position, Year, Institution, Where, Why)
+  detailed_entries(Position, Year, Institution, Where, Why, .protect = FALSE)
 ```
 
 ```{r}
 tribble(
   ~ Position, ~ Year, ~ Institution, ~ Where, ~ Why,
-  "Undergraduate Researcher", "Jun 2018 - Dez 2019", "Microbiology and Biochemical Lab - UNILA", "Foz do Iguaçu, Paraná",
-  c("", "|  |")
+  "Undergraduate Researcher", "Jun 2018 - Dez 2019", "Microbiology and Biochemical Lab - UNILA", "Foz do Iguaçu, Brazil",
+  c("Worked with bacterial nanocellulose production for electrochemical applications, establishing bacteria cultivation, biofilm extraction and purification protocols. Additionally, conducted a literature review bridging the gap between bacterial nanocellulose and its electrochemical applications.", "| Laboratory practices | Literature review | Microbiology lab protocols |")
 ) %>% 
   detailed_entries(Position, Year, Institution, Where, Why)
 ```
 
-# Habilidades e Qualificações
 
-\begingroup
-\fontsize{10}{12}\selectfont
-
-* Linguagens de Programação: R, Python e Bash
-* \textit{Markup}: RMarkdown e HTML
-* Gerenciamento: Git/GitHub, GitHub Actions, Slurm
-* Sistemas UNIX/Linux
-
-
-\endgroup
-
+# Skills
 
 ```{r}
 tribble(
   ~ Position, ~ Year, ~ Institution, ~ Where, ~ Why,
-  "Undergraduate Researcher", "Jun 2018 - Dez 2019", "Microbiology and Biochemical Lab - UNILA", "Foz do Iguaçu, Paraná", c()
+  "Python | Bash | R", "", "Programming", "", c()
+) %>% 
+  detailed_entries(Position, Year, Institution, Where, Why)
+
+tribble(
+  ~ Position, ~ Year, ~ Institution, ~ Where, ~ Why,
+  "Nextflow", "", "Workflow", "", c()
+) %>% 
+  detailed_entries(Position, Year, Institution, Where, Why)
+
+tribble(
+  ~ Position, ~ Year, ~ Institution, ~ Where, ~ Why,
+  "HTML | RMarkdown", "", "Markup", "", c()
+) %>% 
+  detailed_entries(Position, Year, Institution, Where, Why)
+
+tribble(
+  ~ Position, ~ Year, ~ Institution, ~ Where, ~ Why,
+  "Inkscape | Blender", "", "Scientific Illustration", "", c()
+) %>% 
+  detailed_entries(Position, Year, Institution, Where, Why)
+
+tribble(
+  ~ Position, ~ Year, ~ Institution, ~ Where, ~ Why,
+  "Pymol | VMD | Gromacs", "", "Biomolecular Tools", "", c()
+) %>% 
+  detailed_entries(Position, Year, Institution, Where, Why)
+
+tribble(
+  ~ Position, ~ Year, ~ Institution, ~ Where, ~ Why,
+  "Git | Github | Slurm | R/Shiny", "", "Tools", "", c()
 ) %>% 
   detailed_entries(Position, Year, Institution, Where, Why)
 ```
 
-# Prêmios
+# Recognitions
 
 ```{r}
 tribble(
   ~Year, ~Type,
-  2022, "Primeiro Lugar. Menção Honrosa na área de Ciências da Saúde no XI EICTI - UNILA",
-  2021, "Medalha de Ouro e Nomeação de Melhor Projeto de Nova Aplicação e Práticas Humanas na \\textit{International Genetically Engineering Machine Competition} (iGEM)",
-  2020, "Melhor Projeto de Escolha do Público no V Curso de Verão de Engenharia de Máquinas Biológicas - UFMG",
-  2020, "Melhor Apresentação no V Curso de Verão de Engenharia de Máquinas Biológicas - UFMG",
-  2019, "Primeiro Lugar. Menção Honrosa na área de Tecnologia e Produção no VII SEUNI - UNILA",
-  2016, "Menção Honrosa UNESCO pelo Projeto de Relevância Social na Conferência Internacional de Ciência e Tecnologia de Nível Médio - MOSTRATEC/UNESCO",
-  
+  2022, "1st Place. Honorable Mention in Health Science at XI EICTI, UNILA",
+  2021, "Gold Medal at International Genetically Engineering Machine Competition - iGEM",
+  2020, "Best Public Choice Project at the V Biological Machines Engineering Summer Program - UFMG",
+  2020, "Best Presentation Award at the V Biological Machine Engineering Summer Program - UFMG",
+  2019, "1st Place. Honorable Mention in Technology and Production at VII SEUNI - UNILA",
+  2016, "Honorable Mention for Socially Relevant Project at International Conference MOSTRATEC, UNESCO."
   
 ) %>% 
   brief_entries(
@@ -132,7 +150,7 @@ tribble(
     Year, .protect = FALSE)
 ```
 
-# Publicações
+# Publications
 
 \begingroup
 \fontsize{10}{12}\selectfont
