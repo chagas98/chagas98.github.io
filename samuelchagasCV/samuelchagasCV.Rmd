@@ -28,7 +28,7 @@ library(vitae)
 \newcommand\tab[1][1cm]{\hspace*{#1}}
 \begingroup
 \fontsize{10}{12}\selectfont
-\tab[1cm]I'm a computational biologist fascinated by understanding the molecular biodiversity and mechanisms. I have experience with workflow development in Python and R, molecular dynamics simulations, and immunogenetics. Currently, my work focuses on workflow development through documentation, automation, and reproducibility. I’m an intern researcher at the Computational Biocatalysis Group at LNBR/CNPEM in Brazil, where I work with specific Carbohydrate-Active Enzymes for microbiome and structural biology research projects using biomolecular modeling data and biochemical interpretation. I have been delivering valuable insights throughout research projects and dedicating myself to developing useful tools to enhance group performance. In my free time, I enjoy drawing molecular scientific illustrations and cooking plant-based recipes. 
+\tab[1cm]I'm a computational biologist fascinated by understanding the molecular biodiversity and mechanisms. I have experience with workflow development in Python and R, molecular dynamics simulations, and immunogenetics. Currently, my work focuses on workflow development for data analysis from molecular dynamics simulations.  I’m an intern researcher at the Computational Biocatalysis Group at LNBR/CNPEM in Brazil, where I work with specific Carbohydrate-Active Enzymes (CAZymes) for microbiome and structural biology research projects using biomolecular modeling data and biochemical interpretation. I have been delivering valuable insights throughout research projects and dedicating myself to developing useful tools to enhance group performance. In my free time, I enjoy drawing molecular scientific illustrations, read about Latin culture and cooking plant-based recipes. 
 
 \endgroup
 
@@ -41,7 +41,7 @@ tribble(
  "Bachelor in Biotechnology", "2018-2024", "Federal University of Latin-American Integration (UNILA)", "Foz do Iguaçu, Brazil",
  "Electrical Technician", "2013-2017", "Liberato Salzano Vieira da Cunha Foudation", "Novo Hamburgo, Brazil"
 ) %>% 
-  detailed_entries(Degree, Year, Institution, Where)
+  detailed_entries(Degree, Year, Institution, Where, .protect = FALSE)
 ```
 
 # Experience
@@ -50,25 +50,25 @@ tribble(
 tribble(
   ~ Position, ~ Year, ~ Institution, ~ Where, ~ Why,
   "Computational Biocatalysis Intern", "Feb 2023 - Present", "Brazilian Center for Research in Energy and Materials (CNPEM)", "Campinas, São Paulo",
-  c("I have performed data analysis of several molecular dynamics simulations, primarily using Python and Shell scripting compatible with Slurm HPC environment. The main goal are new insights about molecular mechanisms from new Carbohydrate-Active enzyme families, which benefits the experimental team for mutation screening and activity assays.", "| Gromacs | Slurm/HPC | Python/MDAnalysis | Autodock Vina | Conda/Bioconda | Pymol/VMD |")
+  c("I have performed data analysis of several molecular dynamics simulations, primarily using Python and Shell scripting compatible with Slurm HPC environment. The main goal are new insights about molecular mechanisms from new Carbohydrate-Active enzyme families, which benefits the experimental team for mutation screening and activity assays.", "\\textbf{|} Gromacs \\textbf{|} Slurm/HPC \\textbf{|} Python/MDAnalysis \\textbf{|} Autodock Vina \\textbf{|} Conda/Bioconda \\textbf{|} Pymol/VMD \\textbf{|}")
 ) %>% 
-  detailed_entries(Position, Year, Institution, Where, Why)
+  detailed_entries(Position, Year, Institution, Where, Why, .protect = FALSE)
 ```
 
 ```{r}
 tribble(
   ~ Position, ~ Year, ~ Institution, ~ Where, ~ Why,
   "Freelancer - Jr Data Analyst", "Oct 2022 - Feb 2023", "SporeData Inc.", "Remote",
-  c("Worked as a freelancer on healthcare data projects, performing ETL, cohort generation, data visualization, clinical study reports, and statistical analyses.", "| R/Tidyverse | SparkR | RMarkdown | Cloud/N3C |")
+  c("Worked as a freelancer on healthcare data projects, performing ETL, cohort generation, data visualization, clinical study reports, and statistical analyses.", "\\textbf{|} R \\textbf{|} SparkR \\textbf{|} RMarkdown \\textbf{|} Cloud/N3C \\textbf{|}")
 ) %>% 
-  detailed_entries(Position, Year, Institution, Where, Why)
+  detailed_entries(Position, Year, Institution, Where, Why, .protect = FALSE)
 ```
 
 ```{r}
 tribble(
   ~ Position, ~ Year, ~ Institution, ~ Where, ~ Why,
   "Undergraduate Researcher", "Aug 2020 - Mar 2023", "Medical Genetics Lab - UNILA", "Foz do Iguaçu, Brazil",
-  c("I performed DNA sequencing and HLA-B analysis of COVID-19 patients, gathering clinical and genomic data, along with HLA-epitope binding affinities from computational predictions, to study the mutational landscape of SARS-CoV-2 variants in Foz do Iguaçu. I worked with a Nextflow pipeline to collect, transform, and visualize missense mutations affecting HLA epitopes. The result is an easy-to-use pipeline that contributes to genomic surveillance approaches for a Brazilian border research group. \\href{https://github.com/chagas98/sarscovHLAFoz}{(\\underline{Details})}", "| Missense mutation analyses | GISAID | Nextflow | Bash | Python | R | Sanger Sequencing/Wet Lab | netMHCpan4.1 |")
+  c("I performed DNA sequencing and HLA-B analysis of COVID-19 patients, gathering clinical and genomic data, along with HLA-epitope binding affinities from computational predictions, to study the mutational landscape of SARS-CoV-2 variants in Foz do Iguaçu. I worked with a Nextflow pipeline to collect, transform, and visualize missense mutations affecting HLA epitopes. The result is an easy-to-use pipeline that contributes to genomic surveillance approaches for a Brazilian border research group. \\href{https://github.com/chagas98/sarscovHLAFoz}{(\\underline{Details})}", "\\textbf{|} Missense mutation analyses \\textbf{|} GISAID \\textbf{|} Nextflow \\textbf{|} Bash \\textbf{|} Python \\textbf{|} R \\textbf{|} Sanger Sequencing \\textbf{|} netMHCpan4.1 \\textbf{|}")
 ) %>% 
   detailed_entries(Position, Year, Institution, Where, Why, .protect = FALSE)
 ```
@@ -77,7 +77,7 @@ tribble(
 tribble(
   ~ Position, ~ Year, ~ Institution, ~ Where, ~ Why,
   "DryLab Coordinator", "Jan 2020 - Dez 2021", "International Genetically Engineered Machine Competition (iGEM)", "Paris, France",
-  c("As the Head of DryLab at the iGEM UNILA LatAm Team, I led the development of a kinetic model with parameter optimization. We used an Ordinary Differential Equations (ODEs) framework coupled with sensitivity analysis to evaluate the performance of our synthetic genetic circuit. This model provided valuable insights to the experimental team, helping them design experiments and identify key parameters to improve system performance. Also, we built the Carpincho Toehold Generator, specialized in the design of Toeholds for miRNAs detection, using Python and NUPACK API. \\href{https://github.com/chagas98/iGEM2021_Modeling}{(\\underline{Details})}", "| System biology | Python/Scipy | Python/NUPACK | R/ggplot2 | ODEs |")
+  c("As the Head of DryLab at the iGEM UNILA LatAm Team, I led the development of a kinetic model with parameter optimization. We used an Ordinary Differential Equations (ODEs) framework coupled with sensitivity analysis to evaluate the performance of our synthetic genetic circuit. This model provided valuable insights to the experimental team, helping them design experiments and identify key parameters to improve system performance. Also, we built the Carpincho Toehold Generator, specialized in the design of Toeholds for miRNAs detection, using Python and NUPACK API. \\href{https://github.com/chagas98/iGEM2021_Modeling}{(\\underline{Details})}", "\\textbf{|} System biology \\textbf{|} Python \\textbf{|} R \\textbf{|}")
 ) %>% 
   detailed_entries(Position, Year, Institution, Where, Why, .protect = FALSE)
 ```
@@ -86,9 +86,9 @@ tribble(
 tribble(
   ~ Position, ~ Year, ~ Institution, ~ Where, ~ Why,
   "Undergraduate Researcher", "Jun 2018 - Dez 2019", "Microbiology and Biochemical Lab - UNILA", "Foz do Iguaçu, Brazil",
-  c("Worked with bacterial nanocellulose production for electrochemical applications, establishing bacteria cultivation, biofilm extraction and purification protocols. Additionally, conducted a literature review bridging the gap between bacterial nanocellulose and its electrochemical applications.", "| Laboratory practices | Literature review | Microbiology lab protocols |")
+  c("Worked with bacterial nanocellulose production for electrochemical applications, establishing bacteria cultivation, biofilm extraction and purification protocols. Additionally, conducted a literature review bridging the gap between bacterial nanocellulose and its electrochemical applications.", "\\textbf{|} Laboratory practices \\textbf{|} Literature review \\textbf{|} Microbiology lab protocols \\textbf{|}")
 ) %>% 
-  detailed_entries(Position, Year, Institution, Where, Why)
+  detailed_entries(Position, Year, Institution, Where, Why, .protect = FALSE)
 ```
 
 
@@ -132,7 +132,7 @@ tribble(
   detailed_entries(Position, Year, Institution, Where, Why)
 ```
 
-# Recognitions
+# Accomplishments
 
 ```{r}
 tribble(
