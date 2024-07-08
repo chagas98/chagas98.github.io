@@ -59,7 +59,7 @@ tribble(
 tribble(
   ~ Position, ~ Year, ~ Institution, ~ Where, ~ Why,
   "Freelancer - Jr Data Analyst", "Oct 2022 - Feb 2023", "SporeData Inc.", "Remote",
-  c("Worked as a freelancer on healthcare data projects, performing ETL, cohort generation, data visualization, clinical study reports, and statistical analyses.", "\\textbf{|} R \\textbf{|} SparkR \\textbf{|} RMarkdown \\textbf{|} Cloud/N3C \\textbf{|}")
+  c("Worked as a freelancer on clinical data projects, performing ETL, cohort generation, data visualization, clinical study reports, and statistical analyses.", "\\textbf{|} R \\textbf{|} SparkR \\textbf{|} RMarkdown \\textbf{|} Cloud/N3C \\textbf{|}")
 ) %>% 
   detailed_entries(Position, Year, Institution, Where, Why, .protect = FALSE)
 ```
