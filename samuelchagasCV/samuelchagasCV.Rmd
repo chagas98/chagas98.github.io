@@ -50,7 +50,7 @@ tribble(
 tribble(
   ~ Position, ~ Year, ~ Institution, ~ Where, ~ Why,
   "Computational Biocatalysis Intern", "Feb 2023 - Present", "Brazilian Center for Research in Energy and Materials (CNPEM)", "Campinas, São Paulo",
-  c("I have performed data analysis of several molecular dynamics simulations, primarily using Python and Shell scripting compatible with Slurm HPC environment. The main goal are new insights about molecular mechanisms from new Carbohydrate-Active enzyme families, which benefits the experimental team for mutation screening and activity assays.", "\\textbf{|} Gromacs \\textbf{|} Slurm/HPC \\textbf{|} Python/MDAnalysis \\textbf{|} Autodock Vina \\textbf{|} Conda/Bioconda \\textbf{|} Pymol/VMD \\textbf{|}")
+  c("I have performed data analysis of several molecular dynamics simulations and large-scale molecular docking, primarily using Python and Shell scripting compatible with Slurm HPC environment. The main goal are new insights about molecular mechanisms from new Carbohydrate-Active enzyme families, which benefits the experimental team for mutation screening and activity assays.", "\\textbf{|} Molecular Dynamics and Structural Bioinformatics \\textbf{|} Gromacs \\textbf{|} Slurm/HPC \\textbf{|} Python/MDAnalysis \\textbf{|} Autodock Vina \\textbf{|} Conda/Bioconda \\textbf{|} Pymol/VMD \\textbf{|}")
 ) %>% 
   detailed_entries(Position, Year, Institution, Where, Why, .protect = FALSE)
 ```
@@ -59,7 +59,7 @@ tribble(
 tribble(
   ~ Position, ~ Year, ~ Institution, ~ Where, ~ Why,
   "Freelancer - Jr Data Analyst", "Oct 2022 - Feb 2023", "SporeData Inc.", "Remote",
-  c("Worked as a freelancer on clinical data projects, performing ETL, cohort generation, data visualization, clinical study reports, and statistical analyses.", "\\textbf{|} R \\textbf{|} SparkR \\textbf{|} RMarkdown \\textbf{|} Cloud/N3C \\textbf{|}")
+  c("Worked as a freelancer on clinical data projects, performing ETL, cohort generation, data visualization, clinical study reports, and statistical analyses.", "\\textbf{|} Clinical Data \\textbf{|} R \\textbf{|} SparkR \\textbf{|} RMarkdown \\textbf{|} Cloud/N3C \\textbf{|}")
 ) %>% 
   detailed_entries(Position, Year, Institution, Where, Why, .protect = FALSE)
 ```
