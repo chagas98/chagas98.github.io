@@ -121,7 +121,7 @@ tribble(
 
 tribble(
   ~ Position, ~ Year, ~ Institution, ~ Where, ~ Why,
-  "Pymol | VMD | Gromacs", "", "Biomolecular Tools", "", c()
+  "Blender/Molecular Nodes | Pymol | VMD | Gromacs", "", "Biomolecular Tools", "", c()
 ) %>% 
   detailed_entries(Position, Year, Institution, Where, Why)
 
