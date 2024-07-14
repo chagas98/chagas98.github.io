@@ -1,0 +1,9 @@
+---
+title: "Post With Codeee"
+author: "Harlow Malloc"
+date: "2024-07-13"
+categories: [news, code, analysis]
+image: "image.jpg"
+---
+
+This is a post with executable code. kkk
