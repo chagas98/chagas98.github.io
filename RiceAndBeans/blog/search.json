@@ -4,14 +4,14 @@
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "(English) - Rice & Beans are so important for Brazilian cuisine that when we say something is “o arroz com feijão” (the rice and beans) of something else, we mean “the basics”, “the foundation”. Here, I aim to deliver basic or foundational tips for integrating several available computational biology and bioinformatics tools. These tips are insights that I couldn’t implement at my work or just wanted to test something (keep in mind this just a personal blog, suggestions are welcome). Whether you’re starting with computation or seeking new insights, this blog is a good resource.\n(Português) - Arroz e Feijão são tão importantes para a culinária brasileira que quando dizemos que algo é “o arroz com feijão” (the Rice & Beans) de outra coisa, queremos dizer “o básico”, “o alicerce”. Aqui, pretendo fornecer dicas básicas ou fundamentais para a integração de diversas ferramentas disponíveis de biologia computacional e bioinformática. Essas dicas são insights que não consegui implementar no meu trabalho ou apenas queria testar algo (lembre-se que este é apenas um blog pessoal, sugestões são bem-vindas). Esteja você começando com computação ou buscando novos insights, este blog é um bom recurso.\nby Samuel Chagas"
+    "text": "(English) - Rice & Beans are so important for Brazilian cuisine that when we say something is “o arroz com feijão” (the rice and beans) of something else, we mean “the basics”, “the foundation”. Here, I aim to deliver basic or foundational tips for integrating several available computational biology and bioinformatics tools. These tips are insights that I couldn’t implement at my projects or just wanted to test something (keep in mind this just a personal and experimental blog, suggestions are welcome). Whether you’re starting with computation or seeking new insights, this blog is a good resource.\n(Português) - Arroz e Feijão são tão importantes para a culinária brasileira que quando dizemos que algo é “o arroz com feijão” (the Rice & Beans) de outra coisa, queremos dizer “o básico”, “o alicerce”. Aqui, pretendo fornecer dicas básicas ou fundamentais para a integração de diversas ferramentas disponíveis de biologia computacional e bioinformática. Essas dicas são insights que não consegui implementar nos meus projetos ou apenas queria testar algo (lembre-se que este é apenas um blog pessoal e experimmental, sugestões são bem-vindas). Esteja você começando com computação ou buscando novos insights, este blog é um bom recurso.\nby Samuel Chagas"
   },
   {
     "objectID": "posts/welcome/index.html",
     "href": "posts/welcome/index.html",
-    "title": "Welcome To My Blog",
+    "title": "Unindo Predição Estrutural, Docking Molecular e Análise de Interações: explorando o pacote biolib",
     "section": "",
-    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+    "text": "import numpy as np\n\nprint(\"Hello, world!\")\n\nHello, world!"
   },
   {
     "objectID": "posts/post-with-code/index.html",
@@ -25,6 +25,6 @@
     "href": "index.html",
     "title": "Rice&Beans: Basic Tips for Integrating Computational Biology and Bioinformatics Tools",
     "section": "",
-    "text": "Post With Codeee\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\nJul 13, 2024\n\n\nHarlow Malloc\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nJul 10, 2024\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
+    "text": "Unindo Predição Estrutural, Docking Molecular e Análise de Interações: explorando o pacote biolib\n\n\n\n\n\n\nprediction\n\n\nstructural\n\n\npython\n\n\n\n\n\n\n\n\n\nJul 15, 2024\n\n\nSamuel Chagas\n\n\n\n\n\n\n\n\n\n\n\n\nPost With Codeee\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\nJul 13, 2024\n\n\nHarlow Malloc\n\n\n\n\n\n\nNo matching items"
   }
 ]
