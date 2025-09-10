@@ -1,6 +1,6 @@
 ---
 name: Samuel Chagas de Assis
-date: "r format(Sys.time(), '%B, %Y')"
+date: "`r format(Sys.time(), '%B %Y', us <- Sys.setlocale('LC_TIME','C'))`"
 qualifications: BCom(Hons), BSc
 address: Campinas, São Paulo - Brazil
 #profilepic: samuelphoto.jpg
@@ -28,7 +28,7 @@ library(vitae)
 \newcommand\tab[1][1cm]{\hspace*{#1}}
 \begingroup
 \fontsize{10}{12}\selectfont
-\tab[1cm]I am a Master’s student in Computational Biology and Pharmaceutical Sciences at the Brazilian Center for Research in Energy and Materials (CNPEM) and the University of Campinas (UNICAMP). I work with the Protein Design Group, applying and developing computational methods to investigate biological processes through molecular modeling with therapeutic potential. Currently, my research focuses on developing classification models for protein-protein interactions using public immunological datasets, exploring geometric representations, graph-based models and leveraging interpretability to gain insights into interaction mechanisms. 
+\tab[1cm] Master’s student in Computational Biology and Pharmaceutical Sciences at the Brazilian Center for Research in Energy and Materials (CNPEM) and the University of Campinas (UNICAMP), currently conducting research with the Protein Design Group. My work focuses on applying and developing computational methods grounded in geometric deep learning to investigate protein–protein interactions. I am developing classification models using public immunological datasets, exploring graph-based representations and architectures, and leveraging model interpretability to uncover mechanistic insights into molecular recognition.
 
 \endgroup
 
@@ -49,8 +49,7 @@ tribble(
 tribble(
   ~ Position, ~ Year, ~ Institution, ~ Where, ~ Why,
   "Computational Biocatalysis Intern", "Feb 2023 - Dec 2024", "Brazilian Center for Research in Energy and Materials (CNPEM)", "Campinas, São Paulo",
-  c("I performed  several molecular dynamics simulations and large-scale data analysis on HPC environment. The main goal are new insights about molecular mechanisms from new Carbohydrate-Active enzymes, which benefits the experimental team for mutation screening and activity assays.", "\\textbf{|} Molecular Dynamics and Structural Bioinformatics \\textbf{|} Slurm/HPC \\textbf{|} Parallel computing \\textbf{|} Data Analysis (Python/R/Bash) \\textbf{|}")
-) %>% 
+  c("I performed  several molecular dynamics simulations and large-scale data analysis on HPC environment. The main goal are new insights about molecular mechanisms from new Carbohydrate-Active enzymes, which benefits the experimental team for mutation screening and activity assays.")) %>% 
   detailed_entries(Position, Year, Institution, Where, Why, .protect = FALSE)
 ```
 
@@ -58,7 +57,7 @@ tribble(
 tribble(
   ~ Position, ~ Year, ~ Institution, ~ Where, ~ Why,
   "Freelancer - Jr Data Analyst", "Oct 2022 - Feb 2023", "SporeData Inc.", "Remote",
-  c("Worked as a freelancer on healthcare data projects, performing ETL, cohort generation, data visualization, clinical study reports, and statistical analyses.", "\\textbf{|} Clinical Data \\textbf{|} Cloud/N3C \\textbf{|}")
+  c("Worked as a freelancer on healthcare data projects, performing ETL, cohort generation, data visualization, clinical study reports, and statistical analyses. ")
 ) %>% 
   detailed_entries(Position, Year, Institution, Where, Why, .protect = FALSE)
 ```
@@ -67,7 +66,7 @@ tribble(
 tribble(
   ~ Position, ~ Year, ~ Institution, ~ Where, ~ Why,
   "Undergraduate Researcher", "Aug 2020 - Mar 2023", "Medical Genetics Lab - UNILA", "Foz do Iguaçu, Brazil",
-  c("I conducted DNA sequencing and HLA-B genotyping of COVID‑19 patients in Foz do Iguaçu, integrating clinical and genomic data with computational predictions of HLA‑epitope binding affinities. The study aimed to explore the mutational landscape of SARS‑CoV‑2 variants and their potential impact on immune recognition. I developed and implemented a Nextflow pipeline to collect, process, and visualize missense mutations affecting HLA-presented epitopes, using machine learning tools. The resulting workflow is user-friendly and supports genomic surveillance efforts for a cross-border research initiative in Brazil.", " \\textbf{|} Mutation analysis \\textbf{|} Sanger Sequencing \\textbf{|} CNN models \\textbf{|}")
+  c("I conducted DNA sequencing and HLA-B genotyping of COVID‑19 patients in Foz do Iguaçu, integrating clinical and genomic data with computational predictions of HLA‑epitope binding affinities. The study aimed to explore the mutational landscape of SARS‑CoV‑2 variants and their potential impact on immune recognition.")
 ) %>% 
   detailed_entries(Position, Year, Institution, Where, Why, .protect = FALSE)
 ```
@@ -76,7 +75,7 @@ tribble(
 tribble(
   ~ Position, ~ Year, ~ Institution, ~ Where, ~ Why,
   "DryLab Coordinator", "Jan 2020 - Dez 2021", "International Genetically Engineered Machine Competition (iGEM)", "Paris, France",
-  c("As the Head of DryLab at the iGEM UNILA LatAm Team, I led the development of a kinetic model with parameter optimization. We used an Ordinary Differential Equations (ODEs) framework coupled with sensitivity analysis to evaluate the performance of our synthetic genetic circuit. This model provided valuable insights to the experimental team, helping them design experiments and identify key parameters to improve system performance.", "\\textbf{|} System biology \\textbf{|} Sensitivity Analysis \\textbf{|} ODE-based modeling \\textbf{|}")
+  c("As the Head of DryLab at the iGEM UNILA LatAm Team, I led the development of a kinetic model with parameter optimization. We used an Ordinary Differential Equations (ODEs) framework coupled with sensitivity analysis to evaluate and optimized the performance of our synthetic genetic circuit.")
 ) %>% 
   detailed_entries(Position, Year, Institution, Where, Why, .protect = FALSE)
 ```
@@ -93,7 +92,7 @@ tribble(
 
 tribble(
   ~ Position, ~ Year, ~ Institution, ~ Where, ~ Why,
-  "PyTorch | NumPy | Scikit-learn | Keras", "", "Packages", "", c()
+  "PyTorch | PyTorch Geometric | NumPy | Scikit-learn |", "", "Packages", "", c()
 ) %>% 
   detailed_entries(Position, Year, Institution, Where, Why)
 
@@ -132,5 +131,4 @@ tribble(
     Type,
     Year, .protect = FALSE)
 ```
-
 
