@@ -38,12 +38,20 @@ library(vitae)
 library(tibble)
 tribble(
   ~ Degree, ~ Year, ~ Institution, ~ Where,
-  "MSc in Computational Biology and Pharmaceutical Sciences", "2025-now", "Brazilian Center for Research in Energy and Materials (CNPEM) | State University of Campinas (UNICAMP)", "Campinas/São Paulo, Brazil",
+  "MSc in Computational Biology and Pharmaceutical Sciences", "2025-Present", "Brazilian Center for Research in Energy and Materials (CNPEM) | State University of Campinas (UNICAMP)", "Campinas/São Paulo, Brazil",
  "BSc in Biotechnology", "2018-2024", "Federal University of Latin-American Integration (UNILA)", "Foz do Iguaçu, Brazil") %>% 
   detailed_entries(Degree, Year, Institution, Where, .protect = FALSE)
 ```
 
 # Experience
+
+```{r}
+tribble(
+  ~ Position, ~ Year, ~ Institution, ~ Where, ~ Why,
+  "MSc. Research - Geometric Deep Learning for Proteins", "Feb 2025 - Present", "Brazilian Center for Research in Energy and Materials (CNPEM)", "Campinas, São Paulo",
+  c("Developing graph-based deep learning models for protein–protein interaction prediction. Integrating PyTorch, PyTorch Geometric, and transformer-based embeddings to enhance protein structure representation.")) %>% 
+  detailed_entries(Position, Year, Institution, Where, Why, .protect = FALSE)
+```
 
 ```{r}
 tribble(
@@ -66,7 +74,7 @@ tribble(
 tribble(
   ~ Position, ~ Year, ~ Institution, ~ Where, ~ Why,
   "Undergraduate Researcher", "Aug 2020 - Mar 2023", "Medical Genetics Lab - UNILA", "Foz do Iguaçu, Brazil",
-  c("I conducted DNA sequencing and HLA-B genotyping of COVID‑19 patients in Foz do Iguaçu, integrating clinical and genomic data with computational predictions of HLA‑epitope binding affinities. The study aimed to explore the mutational landscape of SARS‑CoV‑2 variants and their potential impact on immune recognition.")
+  c("I conducted computational analyses integrating DNA sequencing and HLA-B genotyping data from COVID-19 patients in Foz do Iguaçu. Using bioinformatics, I analyzed SARS-CoV-2 genomic variants and predicted HLA-epitope binding affinities to assess their potential impact on immune recognition and viral escape mechanisms")
 ) %>% 
   detailed_entries(Position, Year, Institution, Where, Why, .protect = FALSE)
 ```
@@ -92,7 +100,7 @@ tribble(
 
 tribble(
   ~ Position, ~ Year, ~ Institution, ~ Where, ~ Why,
-  "PyTorch | PyTorch Geometric | NumPy | Scikit-learn |", "", "Packages", "", c()
+  "PyTorch | pLLM | NumPy | Scikit-learn |", "", "Frameworks", "", c()
 ) %>% 
   detailed_entries(Position, Year, Institution, Where, Why)
 
